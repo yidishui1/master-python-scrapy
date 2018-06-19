@@ -1,0 +1,1458 @@
+C:\Users\leishen\Anaconda3\envs\anaconda36easy\python.exe "C:/Users/leishen/Documents/anaconda3/scrapy/master python scrapy/chapter 21/ituringpjt/re.compile.py"
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Linux Shell脚本攻略（第3版）-图书-图灵社区</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="/staticitr/img/favicon.png">
+
+    
+    <link href="/kendo/css?v=W-IyudFsjvr8DmczNaEtVDAWVVWkoAYhOkQl_7kkbqc1" rel="stylesheet"/>
+
+    <link href="/ituring/css?v=sZ469sB_bTSptWvx3QdRX8e0asdOguk7ejwJWbvyndU1" rel="stylesheet"/>
+
+
+    <script src="/ituring/js?v=20qhuba-JjWpkUZ6WyvMzCPWFrB_TrAdbOFot0ehZMw1"></script>
+
+    <script src="/bundles/kendo?v=Ep7XxB9YaQz_sUggoppp1nXkei68VOq0u3sLcOISbsE1"></script>
+
+    <!--[if lt IE 9]>
+        <script src="/staticitr/lib/bootstrap/3.3.7/ie/html5shiv.min.js"></script>
+        <script src="/staticitr/lib/bootstrap/3.3.7/ie/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="layout-head">
+                                <div class="container">
+                                    <div id="navbar-toggles" class="navbar-toggles">
+                                        <a href="#nav-main" class="toggle-main ryi-nav-sandwich"></a>
+                                    </div>
+                                    <a id="head-navbar-toggle" href="#" class="head-navbar-toggle"></a>
+                                    <div class="head-logo"><a href="/">图灵社区</a></div>
+                                    <ul id="head-nav-primary" class="head-nav">
+                                        <li class="head-nav-home"><a href="/">首页</a></li>
+                                        <li><a href="/book">图书</a></li>
+                                        <li><a href="/article">文章</a></li>
+                                        <li class="head-search">
+                                            <form action="/search">
+                                                <input type="search" name="q" placeholder="技术改变世界 阅读塑造人生" class="key">
+                                                <button class="go btn btn-link"><span class="fa fa-search"></span></button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                    <ul id="head-nav-secondary" class="head-nav">
+                                        <li class="head-compose"><a href="http://account.ituring.com.cn/register?returnUrl=http%3a%2f%2fwww.ituring.com.cn%2fbook%2f2439">新会员注册</a></li>
+                                        <li class="head-compose"><a href="http://account.ituring.com.cn/log-in?returnUrl=http%3a%2f%2fwww.ituring.com.cn%2fbook%2f2439">登录</a></li>
+                                        <div class="navbar-close"><a href="#nav-user" class="fa fa-angle-up"></a></div>
+                                    </ul>
+                                </div>
+    </div>
+
+
+    
+
+<div class="container">
+    <div class="row g-50">
+        <div class="col-md-9 main">
+            <div class="page-book-head">
+                <div class="row g-20">
+                    <div class="col-md-4">
+                        <div class="book-img">
+                            <a href="http://file.ituring.com.cn/ScreenShow/18013f80e875204d92c6">
+                                <img src="http://file.ituring.com.cn/SmallCover/18013f80e875204d92c6" alt="Linux Shell脚本攻略（第3版）" class="lazy">
+                            </a>
+                            <div id="book-fav-vote" class="book-actions">
+                                <a id="toggle-vote" href="javascript:void(0);" class="article-vote">
+    <span class="number">6</span><span class="text ">推荐</span>
+</a>
+<a id="toggle-fav" href="javascript:void(0);" class="article-vote ">
+    <span class="number fa fa-star-o"></span><span class="text text-muted">收藏</span>
+</a>
+<div class="item article-vote"><span class="number">8.8K</span><span class="text">阅读</span></div>
+<script type="text/javascript">
+    $(function () {
+
+        $("#toggle-vote").click(function () {
+            $.post("/book/togglevote/2439")
+                .done(function (data) {
+                    $("#book-fav-vote").html(data);
+                }).fail(function (data) {
+                    alert('请先登录！');
+                });
+            return false;
+        });
+
+        $("#toggle-fav").click(function () {
+            $.post("/book/togglefav/2439")
+                .done(function (data) {
+                    $("#book-fav-vote").html(data);
+                }).fail(function (data) {
+                    alert('请先登录！');
+                });
+            return false;
+        });
+    });
+</script>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="book-head-upper">
+                                <div class="book-series">图灵程序设计丛书</div>
+                            <div class="book-title">
+                                <h2>
+                                    Linux Shell脚本攻略（第3版）
+                                </h2>
+                                <div></div>
+                                <div><a></a></div>
+                            </div>
+                            <div class="book-author">
+                                <span>
+Clif Flynt，Sarath Lakshman，Shantanu Tushar                                    (作者)
+                                </span>
+                                <span>
+<a href="/space/31107">门佳</a>                                    (译者)
+                                </span>
+                            </div>
+
+                            <div class="book-status">
+                                <span class="label label-info">上市销售</span>
+                            </div>
+                                <div class="alert alert-warning">
+                                    100多则立竿见影的shell脚本攻略</br>
+解决系统管理现实问题，实现繁琐任务自动化，轻松驾驭Linux操作系统
+                                </div>
+                                                            <div class="book-intro readmore">
+                                    本书结合丰富的实际案例介绍了如何利用shell命令实现与Linux操作系统的高效沟通，具体内容包括：各类日常任务以及如何利用shell命令更快速地解决问题；编写脚本从Web中挖掘数据并进行处理；在脚本中与简单的Web API进行交互；任务的执行及自动化；创建及维护文件和文件夹归档，利用shell进行压缩和加密。第3版讲解了最新的Linux发行版中加入的令人激动的新特性，帮助你完成从未想到过的功能。
+                                </div>
+                            <div class="baidu-share">
+                                <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a><a href="#" class="bds_evernotecn" data-cmd="evernotecn" title="分享到印象笔记"></a></div>
+                                <script>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "24" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 pull-right side">
+            
+    <div class="editable-area">
+        <div class="alert alert-success">
+    <p><b>收藏本书能做什么？</b></p>
+    <p>有情况的时候会收到通知，比如电子书发布等。</p>
+</div>
+    </div>
+
+
+            <div class="book-approaches">
+                    <dl>
+                        <dt>电子书</dt>
+                        <dd>
+                                    <span class="price">￥44.99</span>
+                        </dd>
+                    </dl>
+                        <dl class="ebook-formats">
+                            <dt>格式</dt>
+                            <dd>
+                                    <a href="/article/50435" title="推送说明">mobi</a><span class="fa fa-check"></span>
+                                                                     &nbsp;&nbsp;pdf<span class="fa fa-check"></span>
+
+                            </dd>
+                        </dl>
+
+                        <div class="buy-btns">
+                            <a href="/book/addtocart/2439?Edition=Ebook" class="btn btn-block btn-warning">购买电子书</a>
+                            
+                        </div>
+                                    <hr>
+                                    <dl>
+                        <dt>纸质书</dt>
+                        <dd>
+                            <span class="price">
+                                ￥75.65
+                            </span>
+                            <s>￥89.00</s>
+                        </dd>
+                    </dl>
+                <div class="buy-btns">
+                        <a href="/book/addtocart/2439?Edition=Paper" class="btn btn-block btn-warning">购买纸书</a>
+                                            <a href="/book/addtogiftcart/2439" class="btn btn-block btn-default">样书兑换</a>
+                </div>
+
+
+                                    <div class="where-to-buy">
+                        <h4>其他购买方式？</h4>
+                        <ul>
+                                <li><a href="https://amzn.to/2HLF0IH" target="_blank">到亚马逊购买</a></li>
+
+                                <li><a href="http://union.dangdang.com/transfer.php?from=P-296766&amp;ad_type=10&amp;sys_id=1&amp;backurl=http://product.dangdang.com/25249677.html" target="_blank">到当当购买</a></li>
+
+                                <li><a href="http://click.union.jd.com/JdClick/?unionId=50375&amp;to=https://item.jd.com/12333268.html?dist=jd?dist=jd" target="_blank">到京东购买</a></li>
+
+                                <li><a href="http://www.china-pub.com/log/cpsclick.aspx?id=27&amp;url=http://product.china-pub.com/7443307" target="_blank">到互动购买</a></li>
+
+                        </ul>
+                    </div>
+            </div>
+            <ul class="sidenav-list category-sidenav">
+                                    <li class="sidenav-major"><a href="/user/guaguacode"> 注册刮刮卡</a></li>
+                <li class="sidenav-major">
+                    <a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#book-errata" href="/errata/bookerrata/2439?sort=accepted">提交/查看勘误</a>
+                </li>
+                            </ul>
+
+
+            <div class="block">
+                <div class="block-header">
+                    <h3>出版信息</h3>
+                </div>
+                <div class="block-body">
+                    <ul class="publish-info">
+                        <li><strong>书　　名</strong>Linux Shell脚本攻略（第3版）</li>
+                        <li><strong>系列书名</strong>图灵程序设计丛书</li>
+                                                    <li><strong>执行编辑</strong>关于本书的内容有任何问题，请联系 <a href="/message/chat/243701?Name=Linux%20Shell%E8%84%9A%E6%9C%AC%E6%94%BB%E7%95%A5%EF%BC%88%E7%AC%AC3%E7%89%88%EF%BC%89">张海艳</a></li>
+                                                <li><strong>出版日期</strong>2018-03-26</li>
+                                                <li><strong>书　　号</strong>978-7-115-47738-5</li>
+                                                <li><strong>定　　价</strong>89.00 元</li>
+                                                <li><strong>页　　数</strong>386</li>
+                        <li><strong>印刷方式</strong>单色</li>
+                        <li><strong>开　　本</strong>16开</li>
+
+                        <li><strong>出版状态</strong>上市销售</li>
+
+                        <li>
+                                    <strong>原书名</strong>Linux Shell Scripting Cookbook，Third Edition                        </li>
+                        <li>
+                                    <strong>原书号</strong>9781785881985                        </li>
+                                            </ul>
+                </div>
+            </div>
+
+
+
+
+
+    <div class="block block-books block-books-list">
+
+            <div class="block-header">
+                <h4>同系列书</h4>
+            </div>
+
+        <ul class="block-items">
+                <li class="block-item">
+                    <div class="book-img">
+    <a href="/book/844" title="HTTP权威指南">
+        <img src="http://file.ituring.com.cn/SmallCover/0101394ea80c51b5128e" alt="HTTP权威指南">
+    </a>
+</div>
+<div class="book-info">
+    <h4 class="name"><a href="/book/844" title="HTTP权威指南">HTTP权威指南</a></h4>
+    <div class="author">
+            <span>
+David Gourley                    &nbsp;
+Brian Totty                    &nbsp;
+Marjorie Sayer                    &nbsp;
+Sailu Reddy                    &nbsp;
+Anshu Aggarwal                    &nbsp;
+            </span>
+                    <span>
+陈涓                    &nbsp;
+赵振平                    &nbsp;
+                译
+            </span>
+    </div>
+    <p class="intro">本书是HTTP及其相关核心Web技术方面的权威著作，主要介绍了Web应用程序是如何工作的，核心的因特网协议如何...</p>
+
+    
+</div>
+
+                </li>
+                <li class="block-item">
+                    <div class="book-img">
+    <a href="/book/946" title="JavaScript高级程序设计（第3版）">
+        <img src="http://file.ituring.com.cn/SmallCover/010116cbe80f8b13a020" alt="JavaScript高级程序设计（第3版）">
+    </a>
+</div>
+<div class="book-info">
+    <h4 class="name"><a href="/book/946" title="JavaScript高级程序设计（第3版）">JavaScript高级程序设计（第3版）</a></h4>
+    <div class="author">
+            <span>
+Nicholas C.Zakas                     &nbsp;
+            </span>
+                    <span>
+<a href="/space/81970">李松峰</a>                    &nbsp;
+<a href="/space/36402">曹力</a>                    &nbsp;
+                译
+            </span>
+    </div>
+    <p class="intro">本书是JavaScript超级畅销书的新版。ECMAScript 5 和HTML5在标准之争中双双胜出，使大量...</p>
+
+    
+</div>
+
+                </li>
+                <li class="block-item">
+                    <div class="book-img">
+    <a href="/book/1019" title="计算机科学的基础">
+        <img src="http://file.ituring.com.cn/SmallCover/0100f530e352ebaf7acc" alt="计算机科学的基础">
+    </a>
+</div>
+<div class="book-info">
+    <h4 class="name"><a href="/book/1019" title="计算机科学的基础">计算机科学的基础</a></h4>
+    <div class="author">
+            <span>
+Al Aho                     &nbsp;
+Jeff Ullman                    &nbsp;
+            </span>
+                    <span>
+<a href="/space/46020">傅尔也</a>                    &nbsp;
+                译
+            </span>
+    </div>
+    <p class="intro">本书全面而详细地阐述了计算机科学的理论基础，从抽象概念的机械化到各种数据模型的建立，用算法、数据抽象等核心思想...</p>
+
+    
+</div>
+
+                </li>
+                <li class="block-item">
+                    <div class="book-img">
+    <a href="/book/1554" title="Java技术手册（第6版）">
+        <img src="http://file.ituring.com.cn/SmallCover/0100050d7e0c4450d930" alt="Java技术手册（第6版）">
+    </a>
+</div>
+<div class="book-info">
+    <h4 class="name"><a href="/book/1554" title="Java技术手册（第6版）">Java技术手册（第6版）</a></h4>
+    <div class="author">
+            <span>
+Benjamin J Evans                    &nbsp;
+David Flanagan                    &nbsp;
+            </span>
+                    <span>
+<a href="/space/102377">安道</a>                    &nbsp;
+                译
+            </span>
+    </div>
+    <p class="intro">通过学习本书，你将能够：
+
+掌握最新的语言细节，包括Java 8的变化
+使用基本的Java句法学习面向对...</p>
+
+    
+</div>
+
+                </li>
+                <li class="block-item">
+                    <div class="book-img">
+    <a href="/book/1021" title="机器学习实战">
+        <img src="http://file.ituring.com.cn/SmallCover/0100c4b0e732c1a37ef4" alt="机器学习实战">
+    </a>
+</div>
+<div class="book-info">
+    <h4 class="name"><a href="/book/1021" title="机器学习实战">机器学习实战</a></h4>
+    <div class="author">
+            <span>
+Peter Harrington                    &nbsp;
+            </span>
+                    <span>
+<a href="/space/97254">李锐</a>                    &nbsp;
+<a href="/space/91038">李鹏</a>                    &nbsp;
+曲亚东                    &nbsp;
+王斌                    &nbsp;
+                译
+            </span>
+    </div>
+    <p class="intro">机器学习是人工智能研究领域中一个极其重要的研究方向，在现今的大数据时代背景下，捕获数据并从中萃取有价值的信息或...</p>
+
+    
+</div>
+
+                </li>
+        </ul>
+
+    </div>
+        </div>
+
+        <div class="col-md-9 main tag-at-top">
+            <div id="book-errata"></div>
+
+
+                <div class="block">
+                    <div class="block-header">
+                        <h3>本书特色</h3>
+                    </div>
+                    <div class="block-body">
+                        <div class="intro">
+                            Linux/GNU是一款非凡的操作系统，拥有稳定可靠且极其强大的开发环境。作为与操作系统进行沟通的原生界面，shell能够控制整个操作系统的运作，是与Linux进行交互最灵活的手段。</br>
+</br>
+本书向读者展现了如何有效地利用shell完成复杂的任务。作者从shell的基础知识开始，介绍简单命令的用法、对各类文件进行操作，随后讲解文本处理、Web交互、备份、监视以及其他系统管理任务，涵盖初中高三级主题，传授脚本老手经常使用的诸多技巧。书中所有示例均基于具体任务，透彻清晰，通俗易懂。</br>
+</br>
+第3版进行了全面修订，囊括Linux最新发行版新特性，增加了仓储管理、网络分组、动态调用、系统调优、容器、云等100余页篇幅的新内容，极具实用价值，让看似复杂的Linux shell脚本任务迎刃而解。</br>
+</br>
+?6?1通过脚本与Web站点交互</br>
+?6?1编写脚本，挖掘并处理Web数据</br>
+?6?1使用crontab实现系统备份及其他重复性任务的自动化</br>
+?6?1创建、压缩、加密重要数据</br>
+?6?1配置并监视以太网和无线网络</br>
+?6?1监视并记录网络和系统的活动日志</br>
+?6?1系统调优，实现性能优化，提高系统安全性</br>
+?6?1鉴别资源占用大户以及网络瓶颈</br>
+?6?1使用git或fossil实现版本控制，处理自由开源软件项目</br>
+?6?1创建并维护Linux容器和虚拟机</br>
+</br>
+</br>
+
+                        </div>
+                    </div>
+                </div>
+
+            <div id="book-photo-collection">
+                
+
+            </div>
+
+            <div class="block">
+                <div class="block-header">
+                    <h3>目录</h3>
+                </div>
+                <div class="block-body">
+                    <div class="catalogue">
+                        <div class="catalogue-main">
+                            <div class="bookmenu">
+                                        <table class="table table-striped">
+                                                <tr>
+                                                    <td>
+                                                            <a href="/book/tupubarticle/19987">
+                                                                版权声明
+                                                            </a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="/book/tupubarticle/19987"><span class="code">阅读</span></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                            <a href="/book/tupubarticle/19993">
+                                                                致谢
+                                                            </a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="/book/tupubarticle/19993"><span class="code">阅读</span></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                            <a href="/book/tupubarticle/19994">
+                                                                前言
+                                                            </a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="/book/tupubarticle/19994"><span class="code">阅读</span></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                            <a href="/book/tupubarticle/19995">
+                                                                第 1 章　小试牛刀
+                                                            </a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="/book/tupubarticle/19995"><span class="code">阅读</span></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+第 2 章　命令之乐                                                    </td>
+                                                    <td>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+第 3 章　以文件之名                                                    </td>
+                                                    <td>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+第 4 章　让文本飞                                                    </td>
+                                                    <td>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+第 5 章　一团乱麻？没这回事！                                                    </td>
+                                                    <td>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+第 6 章　仓储管理                                                    </td>
+                                                    <td>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+第 7 章　B计划                                                    </td>
+                                                    <td>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+第 8 章　无网不利                                                    </td>
+                                                    <td>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+第 9 章　明察秋毫                                                    </td>
+                                                    <td>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+第 10 章　管理重任                                                    </td>
+                                                    <td>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+第 11 章　觅迹寻踪                                                    </td>
+                                                    <td>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+第 12 章　系统调优                                                    </td>
+                                                    <td>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+第 13 章　在云端                                                    </td>
+                                                    <td>
+                                                    </td>
+                                                </tr>
+                                        </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="block">
+                    <div class="block-header">
+                        <h3>作者介绍</h3>
+                    </div>
+                    <div class="block-body">
+                        <div class="intro">
+                            Clif Flynt，Tcl/Tk及Linux用户社区活跃分子，经常在技术会议和用户小组中发表演说。Noumena公司创始人，负责开发定制软件和举办培训课程。另著有Tcl/Tk：A Developer's Guide一书。</br>
+</br>
+Sarath Lakshman，Linux天才程序员、开源软件及GNU/Linux活跃分子。SLYNUX(2005)的开发者而，Linux For You专栏作家。在Fedora、Pardus Linux、PiTiVi、Ubuntu 以及Google编程夏令营等项目中均做出了不可估量的贡献。</br>
+</br>
+Shantanu Tushar，GNU/Linux用户，KDE社区重要贡献者，维护着Calligra Active（用于Tablets的KDE办公文档查看器）、Plasma Media Center以及Gluon Player。Shantanu坚信终有一天编程会变得无比轻松，每个人都会热衷于为计算机编写程序。</br>
+</br>
+【译者简介】</br>
+</br>
+门佳, GNU／Linux深度用户，喜欢溯本求源，挖掘技术背后的来龙去脉，对程序语言设计理论、编译技术、操作系统设计与实现、Web开发等领域均有涉猎，译著包括《TCP Sockets编程》《精通JavaScript（第2版）》《Linux命令行与shell脚本编程大全（第3版）》以及本书前两版等。
+                        </div>
+                    </div>
+                </div>
+
+            
+
+
+            
+
+
+            <div class="block">
+                <div id="comment-block">
+                    
+
+<div id="comment-form"></div>
+
+<div class="nav-tab-primary">
+    <ul class="nav nav-tabs text-right">
+        <li class="">
+            <a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#comment-block" href="/bookcomment/commentblock/2439?sort=new">按时间</a>
+        </li>
+        <li class="active">
+            <a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#comment-block" href="/bookcomment/commentblock/2439?sort=vote">按推荐</a>
+        </li>
+    </ul>
+</div>
+<div class="comment-block">
+        <div id="comment-list" class="comment-list comments">
+            <ul>
+                    <li id="comment-item-32870">
+                        <div class="avatar">
+                            <a href="/space/9919">
+                                <img src="http://file.ituring.com.cn/LargeAvatar/000351b7004c8bf16764" alt="琳琳的小狗">
+                            </a>
+                        </div>
+                        <div class="txt" id="comment-content-32870">
+                            <div class="comment-txt">
+                                来个半价优惠活动嘛
+                            </div>
+                            <div class="comment-info">
+                                <a href="/space/9919">琳琳的小狗</a>&nbsp;&nbsp;发表于 2018-03-01 10:47:43
+                            </div>
+                            <div class="action-bar">
+                                                                                                <span id="comment-vote-32870">
+                                    <a id="vote-32870" href="javascript:void(0)">推荐</a>
+<script type="text/javascript">
+    $(function () {
+        if(2){
+            $("#vote-32870").text('2' + ' 推荐');
+        }
+        $("#vote-32870").on("click", function () {
+            $.post("/bookcomment/togglevote/32870")
+                .done(function (data) { $("#comment-vote-32870").html(data); })
+                .fail(function () { alert('请先登录！'); });
+            return false;
+        });
+    });
+</script>
+                                </span>
+                            </div>
+
+                            <div id="comment-reply-32870" class="reply-list">
+                                
+
+<div class="comments">
+    <ul>
+            <li id="reply-item-27779">
+                <div class="txt" id="reply-content-27779">
+                    <p class="comment-txt">来个嘛</p>
+                    <div class="comment-info">
+                        <a href="/space/172398" class="username">天才少年</a>&nbsp;&nbsp;发表于 2018-03-15 12:20:44
+                    </div>
+                    <div class="action-bar">
+                                                                    </div>
+                </div>
+            </li>
+    </ul>
+</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="comment-item-32770">
+                        <div class="avatar">
+                            <a href="/space/209978">
+                                <img src="http://file.ituring.com.cn/LargeAvatar/0052eb8b20c2ca483923" alt="geckoer">
+                            </a>
+                        </div>
+                        <div class="txt" id="comment-content-32770">
+                            <div class="comment-txt">
+                                这本书有没有电子版？
+                            </div>
+                            <div class="comment-info">
+                                <a href="/space/209978">geckoer</a>&nbsp;&nbsp;发表于 2018-02-10 20:41:41
+                            </div>
+                            <div class="action-bar">
+                                                                                                <span id="comment-vote-32770">
+                                    <a id="vote-32770" href="javascript:void(0)">推荐</a>
+<script type="text/javascript">
+    $(function () {
+        if(0){
+            $("#vote-32770").text('0' + ' 推荐');
+        }
+        $("#vote-32770").on("click", function () {
+            $.post("/bookcomment/togglevote/32770")
+                .done(function (data) { $("#comment-vote-32770").html(data); })
+                .fail(function () { alert('请先登录！'); });
+            return false;
+        });
+    });
+</script>
+                                </span>
+                            </div>
+
+                            <div id="comment-reply-32770" class="reply-list">
+                                
+
+<div class="comments">
+    <ul>
+            <li id="reply-item-27599">
+                <div class="txt" id="reply-content-27599">
+                    <p class="comment-txt">你好，有电子版。</p>
+                    <div class="comment-info">
+                        <a href="/space/243701" class="username">张海艳</a>&nbsp;&nbsp;发表于 2018-02-11 08:45:53
+                    </div>
+                    <div class="action-bar">
+                                                                    </div>
+                </div>
+            </li>
+            <li id="reply-item-27613">
+                <div class="txt" id="reply-content-27613">
+                    <p class="comment-txt">@张海艳 期待电子版</p>
+                    <div class="comment-info">
+                        <a href="/space/172398" class="username">天才少年</a>&nbsp;&nbsp;发表于 2018-02-12 17:54:57
+                    </div>
+                    <div class="action-bar">
+                                                                    </div>
+                </div>
+            </li>
+    </ul>
+</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="comment-item-32834">
+                        <div class="avatar">
+                            <a href="/space/106706">
+                                <img src="http://file.ituring.com.cn/LargeAvatar/002743e90ee5474c5333" alt="猥琐皮特">
+                            </a>
+                        </div>
+                        <div class="txt" id="comment-content-32834">
+                            <div class="comment-txt">
+                                什么时候上电子版？
+                            </div>
+                            <div class="comment-info">
+                                <a href="/space/106706">猥琐皮特</a>&nbsp;&nbsp;发表于 2018-02-24 16:15:53
+                            </div>
+                            <div class="action-bar">
+                                                                                                <span id="comment-vote-32834">
+                                    <a id="vote-32834" href="javascript:void(0)">推荐</a>
+<script type="text/javascript">
+    $(function () {
+        if(0){
+            $("#vote-32834").text('0' + ' 推荐');
+        }
+        $("#vote-32834").on("click", function () {
+            $.post("/bookcomment/togglevote/32834")
+                .done(function (data) { $("#comment-vote-32834").html(data); })
+                .fail(function () { alert('请先登录！'); });
+            return false;
+        });
+    });
+</script>
+                                </span>
+                            </div>
+
+                            <div id="comment-reply-32834" class="reply-list">
+                                
+
+<div class="comments">
+    <ul>
+    </ul>
+</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="comment-item-32869">
+                        <div class="avatar">
+                            <a href="/space/105239">
+                                <img src="http://file.ituring.com.cn/LargeAvatar/0026010aee0de88916d2" alt="lu4nx">
+                            </a>
+                        </div>
+                        <div class="txt" id="comment-content-32869">
+                            <div class="comment-txt">
+                                有第二版电子书，第三版买电子版给折扣吗？
+                            </div>
+                            <div class="comment-info">
+                                <a href="/space/105239">lu4nx</a>&nbsp;&nbsp;发表于 2018-03-01 10:30:03
+                            </div>
+                            <div class="action-bar">
+                                                                                                <span id="comment-vote-32869">
+                                    <a id="vote-32869" href="javascript:void(0)">推荐</a>
+<script type="text/javascript">
+    $(function () {
+        if(0){
+            $("#vote-32869").text('0' + ' 推荐');
+        }
+        $("#vote-32869").on("click", function () {
+            $.post("/bookcomment/togglevote/32869")
+                .done(function (data) { $("#comment-vote-32869").html(data); })
+                .fail(function () { alert('请先登录！'); });
+            return false;
+        });
+    });
+</script>
+                                </span>
+                            </div>
+
+                            <div id="comment-reply-32869" class="reply-list">
+                                
+
+<div class="comments">
+    <ul>
+            <li id="reply-item-27724">
+                <div class="txt" id="reply-content-27724">
+                    <p class="comment-txt">给折扣，请查看系统通知。</p>
+                    <div class="comment-info">
+                        <a href="/space/243701" class="username">张海艳</a>&nbsp;&nbsp;发表于 2018-03-06 09:55:56
+                    </div>
+                    <div class="action-bar">
+                                                                    </div>
+                </div>
+            </li>
+    </ul>
+</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="comment-item-32905">
+                        <div class="avatar">
+                            <a href="/space/165723">
+                                <img src="http://file.ituring.com.cn/LargeAvatar/0041ab7254a05adeb37d" alt="心中的理想乡">
+                            </a>
+                        </div>
+                        <div class="txt" id="comment-content-32905">
+                            <div class="comment-txt">
+                                我也是有第二版的电子版，第三版的电子版能优惠吗
+                            </div>
+                            <div class="comment-info">
+                                <a href="/space/165723">心中的理想乡</a>&nbsp;&nbsp;发表于 2018-03-04 21:37:58
+                            </div>
+                            <div class="action-bar">
+                                                                                                <span id="comment-vote-32905">
+                                    <a id="vote-32905" href="javascript:void(0)">推荐</a>
+<script type="text/javascript">
+    $(function () {
+        if(0){
+            $("#vote-32905").text('0' + ' 推荐');
+        }
+        $("#vote-32905").on("click", function () {
+            $.post("/bookcomment/togglevote/32905")
+                .done(function (data) { $("#comment-vote-32905").html(data); })
+                .fail(function () { alert('请先登录！'); });
+            return false;
+        });
+    });
+</script>
+                                </span>
+                            </div>
+
+                            <div id="comment-reply-32905" class="reply-list">
+                                
+
+<div class="comments">
+    <ul>
+            <li id="reply-item-27725">
+                <div class="txt" id="reply-content-27725">
+                    <p class="comment-txt">能优惠，请查看3月5日的系统通知。</p>
+                    <div class="comment-info">
+                        <a href="/space/243701" class="username">张海艳</a>&nbsp;&nbsp;发表于 2018-03-06 09:57:08
+                    </div>
+                    <div class="action-bar">
+                                                                    </div>
+                </div>
+            </li>
+    </ul>
+</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="comment-item-32928">
+                        <div class="avatar">
+                            <a href="/space/267040">
+                                <img src="http://file.ituring.com.cn/LargeAvatar/180357e89a6c36450831" alt="系统提示">
+                            </a>
+                        </div>
+                        <div class="txt" id="comment-content-32928">
+                            <div class="comment-txt">
+                                这书错误太多。希望新版有所改正。<br />免费获取本书第二版视频教程。本人自己录制的。可以免费获得。<br />【马哥私房菜】亲情推出《linux shell脚本攻略》视频教程   https://shop592330910.taobao.com/
+                            </div>
+                            <div class="comment-info">
+                                <a href="/space/267040">系统提示</a>&nbsp;&nbsp;发表于 2018-03-07 16:38:06
+                            </div>
+                            <div class="action-bar">
+                                                                                                <span id="comment-vote-32928">
+                                    <a id="vote-32928" href="javascript:void(0)">推荐</a>
+<script type="text/javascript">
+    $(function () {
+        if(0){
+            $("#vote-32928").text('0' + ' 推荐');
+        }
+        $("#vote-32928").on("click", function () {
+            $.post("/bookcomment/togglevote/32928")
+                .done(function (data) { $("#comment-vote-32928").html(data); })
+                .fail(function () { alert('请先登录！'); });
+            return false;
+        });
+    });
+</script>
+                                </span>
+                            </div>
+
+                            <div id="comment-reply-32928" class="reply-list">
+                                
+
+<div class="comments">
+    <ul>
+    </ul>
+</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="comment-item-33091">
+                        <div class="avatar">
+                            <a href="/space/185652">
+                                <img src="http://file.ituring.com.cn/LargeAvatar/18030b75bf2a3c50bd99" alt="tubaflute">
+                            </a>
+                        </div>
+                        <div class="txt" id="comment-content-33091">
+                            <div class="comment-txt">
+                                请问这本书有折扣么？<br />
+                            </div>
+                            <div class="comment-info">
+                                <a href="/space/185652">tubaflute</a>&nbsp;&nbsp;发表于 2018-03-27 14:43:59
+                            </div>
+                            <div class="action-bar">
+                                                                                                <span id="comment-vote-33091">
+                                    <a id="vote-33091" href="javascript:void(0)">推荐</a>
+<script type="text/javascript">
+    $(function () {
+        if(0){
+            $("#vote-33091").text('0' + ' 推荐');
+        }
+        $("#vote-33091").on("click", function () {
+            $.post("/bookcomment/togglevote/33091")
+                .done(function (data) { $("#comment-vote-33091").html(data); })
+                .fail(function () { alert('请先登录！'); });
+            return false;
+        });
+    });
+</script>
+                                </span>
+                            </div>
+
+                            <div id="comment-reply-33091" class="reply-list">
+                                
+
+<div class="comments">
+    <ul>
+    </ul>
+</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="comment-item-33125">
+                        <div class="avatar">
+                            <a href="/space/212080">
+                                <img src="http://file.ituring.com.cn/LargeAvatar/18044421d6f3c2fa7397" alt="alys114">
+                            </a>
+                        </div>
+                        <div class="txt" id="comment-content-33125">
+                            <div class="comment-txt">
+                                非常好的书，有很多平时在用的命令，原来还隐藏着那么大的威力，太棒了，刚看完第2版，获益良多；
+                            </div>
+                            <div class="comment-info">
+                                <a href="/space/212080">alys114</a>&nbsp;&nbsp;发表于 2018-04-01 19:26:06
+                            </div>
+                            <div class="action-bar">
+                                                                                                <span id="comment-vote-33125">
+                                    <a id="vote-33125" href="javascript:void(0)">推荐</a>
+<script type="text/javascript">
+    $(function () {
+        if(0){
+            $("#vote-33125").text('0' + ' 推荐');
+        }
+        $("#vote-33125").on("click", function () {
+            $.post("/bookcomment/togglevote/33125")
+                .done(function (data) { $("#comment-vote-33125").html(data); })
+                .fail(function () { alert('请先登录！'); });
+            return false;
+        });
+    });
+</script>
+                                </span>
+                            </div>
+
+                            <div id="comment-reply-33125" class="reply-list">
+                                
+
+<div class="comments">
+    <ul>
+    </ul>
+</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="comment-item-33201">
+                        <div class="avatar">
+                            <a href="/space/168511">
+                                <img src="http://file.ituring.com.cn/LargeAvatar/0042fcd186c3d1b0e00f" alt="罗朴">
+                            </a>
+                        </div>
+                        <div class="txt" id="comment-content-33201">
+                            <div class="comment-txt">
+                                有第二版，买这版还有优惠吗？发现系统的发的优惠码在4月5日过期了，还能提供优惠码吗
+                            </div>
+                            <div class="comment-info">
+                                <a href="/space/168511">罗朴</a>&nbsp;&nbsp;发表于 2018-04-12 09:30:59
+                            </div>
+                            <div class="action-bar">
+                                                                                                <span id="comment-vote-33201">
+                                    <a id="vote-33201" href="javascript:void(0)">推荐</a>
+<script type="text/javascript">
+    $(function () {
+        if(0){
+            $("#vote-33201").text('0' + ' 推荐');
+        }
+        $("#vote-33201").on("click", function () {
+            $.post("/bookcomment/togglevote/33201")
+                .done(function (data) { $("#comment-vote-33201").html(data); })
+                .fail(function () { alert('请先登录！'); });
+            return false;
+        });
+    });
+</script>
+                                </span>
+                            </div>
+
+                            <div id="comment-reply-33201" class="reply-list">
+                                
+
+<div class="comments">
+    <ul>
+            <li id="reply-item-27957">
+                <div class="txt" id="reply-content-27957">
+                    <p class="comment-txt">可以将问题email至电子书客服邮箱：ebook@turingbook.com</p>
+                    <div class="comment-info">
+                        <a href="/space/243701" class="username">张海艳</a>&nbsp;&nbsp;发表于 2018-04-12 13:32:56
+                    </div>
+                    <div class="action-bar">
+                                                                    </div>
+                </div>
+            </li>
+    </ul>
+</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="comment-item-33216">
+                        <div class="avatar">
+                            <a href="/space/212157">
+                                <img src="http://file.ituring.com.cn/LargeAvatar/0052f2fa0bd24a06b925" alt="那句诺言">
+                            </a>
+                        </div>
+                        <div class="txt" id="comment-content-33216">
+                            <div class="comment-txt">
+                                谁有优惠购书码，有偿哈
+                            </div>
+                            <div class="comment-info">
+                                <a href="/space/212157">那句诺言</a>&nbsp;&nbsp;发表于 2018-04-14 09:53:55
+                            </div>
+                            <div class="action-bar">
+                                                                                                <span id="comment-vote-33216">
+                                    <a id="vote-33216" href="javascript:void(0)">推荐</a>
+<script type="text/javascript">
+    $(function () {
+        if(0){
+            $("#vote-33216").text('0' + ' 推荐');
+        }
+        $("#vote-33216").on("click", function () {
+            $.post("/bookcomment/togglevote/33216")
+                .done(function (data) { $("#comment-vote-33216").html(data); })
+                .fail(function () { alert('请先登录！'); });
+            return false;
+        });
+    });
+</script>
+                                </span>
+                            </div>
+
+                            <div id="comment-reply-33216" class="reply-list">
+                                
+
+<div class="comments">
+    <ul>
+    </ul>
+</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="comment-item-33253">
+                        <div class="avatar">
+                            <a href="/space/166811">
+                                <img src="http://file.ituring.com.cn/LargeAvatar/004137830f687ce36920" alt="binbjz">
+                            </a>
+                        </div>
+                        <div class="txt" id="comment-content-33253">
+                            <div class="comment-txt">
+                                第1, 2, 3版都买了, 内容是互补, 挺好的技巧类书籍. 值得一看! 还推荐 圣经级书籍 Abs 和 Linux命令行与shell脚本编程大全(第3版),  如果学习 shell都是强烈推荐的 红黑宝典呀!
+                            </div>
+                            <div class="comment-info">
+                                <a href="/space/166811">binbjz</a>&nbsp;&nbsp;发表于 2018-04-18 11:18:28
+                            </div>
+                            <div class="action-bar">
+                                                                                                <span id="comment-vote-33253">
+                                    <a id="vote-33253" href="javascript:void(0)">推荐</a>
+<script type="text/javascript">
+    $(function () {
+        if(0){
+            $("#vote-33253").text('0' + ' 推荐');
+        }
+        $("#vote-33253").on("click", function () {
+            $.post("/bookcomment/togglevote/33253")
+                .done(function (data) { $("#comment-vote-33253").html(data); })
+                .fail(function () { alert('请先登录！'); });
+            return false;
+        });
+    });
+</script>
+                                </span>
+                            </div>
+
+                            <div id="comment-reply-33253" class="reply-list">
+                                
+
+<div class="comments">
+    <ul>
+    </ul>
+</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="comment-item-33296">
+                        <div class="avatar">
+                            <a href="/space/226229">
+                                <img src="http://file.ituring.com.cn/LargeAvatar/0056fcb8c0c3f0a55c4a" alt="caoyubao">
+                            </a>
+                        </div>
+                        <div class="txt" id="comment-content-33296">
+                            <div class="comment-txt">
+                                已经购买电子版，pdf为什么不能下载
+                            </div>
+                            <div class="comment-info">
+                                <a href="/space/226229">caoyubao</a>&nbsp;&nbsp;发表于 2018-04-23 21:50:48
+                            </div>
+                            <div class="action-bar">
+                                                                                                <span id="comment-vote-33296">
+                                    <a id="vote-33296" href="javascript:void(0)">推荐</a>
+<script type="text/javascript">
+    $(function () {
+        if(0){
+            $("#vote-33296").text('0' + ' 推荐');
+        }
+        $("#vote-33296").on("click", function () {
+            $.post("/bookcomment/togglevote/33296")
+                .done(function (data) { $("#comment-vote-33296").html(data); })
+                .fail(function () { alert('请先登录！'); });
+            return false;
+        });
+    });
+</script>
+                                </span>
+                            </div>
+
+                            <div id="comment-reply-33296" class="reply-list">
+                                
+
+<div class="comments">
+    <ul>
+            <li id="reply-item-28040">
+                <div class="txt" id="reply-content-28040">
+                    <p class="comment-txt">您好，您可以将问题email至电子书客服邮箱：ebook@turingbook.com</p>
+                    <div class="comment-info">
+                        <a href="/space/243701" class="username">张海艳</a>&nbsp;&nbsp;发表于 2018-04-24 09:03:13
+                    </div>
+                    <div class="action-bar">
+                                                                    </div>
+                </div>
+            </li>
+    </ul>
+</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="comment-item-33565">
+                        <div class="avatar">
+                            <a href="/space/205155">
+                                <img src="http://file.ituring.com.cn/LargeAvatar/0051b56b392c4cd3d31a" alt="王贵龗">
+                            </a>
+                        </div>
+                        <div class="txt" id="comment-content-33565">
+                            <div class="comment-txt">
+                                书中的链接很多都打不开
+                            </div>
+                            <div class="comment-info">
+                                <a href="/space/205155">王贵龗</a>&nbsp;&nbsp;发表于 2018-05-29 09:00:14
+                            </div>
+                            <div class="action-bar">
+                                                                                                <span id="comment-vote-33565">
+                                    <a id="vote-33565" href="javascript:void(0)">推荐</a>
+<script type="text/javascript">
+    $(function () {
+        if(0){
+            $("#vote-33565").text('0' + ' 推荐');
+        }
+        $("#vote-33565").on("click", function () {
+            $.post("/bookcomment/togglevote/33565")
+                .done(function (data) { $("#comment-vote-33565").html(data); })
+                .fail(function () { alert('请先登录！'); });
+            return false;
+        });
+    });
+</script>
+                                </span>
+                            </div>
+
+                            <div id="comment-reply-33565" class="reply-list">
+                                
+
+<div class="comments">
+    <ul>
+    </ul>
+</div>
+                            </div>
+                        </div>
+                    </li>
+            </ul>
+
+            <div class="clearfix">
+                
+            </div>
+        </div>
+</div>
+
+
+    <script type="text/javascript">
+        function ShowLoginForm() {
+            $("#comment-form").html('<iframe id="the_iframe" style="padding-left:30px;" name="the_iframe" src="http://account.ituring.com.cn/iframe-log-in?returnUrl=http://www.ituring.com.cn/book/2439&hash=gotocomment" width="400" height="280" scrolling="no" frameborder="0" allowtransparency="true">');
+        }
+
+        function showCommentForm() {
+            $('#comment-list form').remove();
+            $.ajax({
+                url: '/BookComment/add',
+                type: 'Get',
+                data: {
+                    Id: '2439',
+                },
+                success: function (data) {
+                    $('#comment-form').html(data);
+                },
+                error: function (xhr) {
+                    $('#reply-comment-error').text(xhr.responseText);
+                }
+            })
+        }
+
+        $(function () {
+
+              ShowLoginForm();
+
+
+            //发表评论
+            $('#comment-commit').click(showCommentForm);
+
+            //回复评论
+            $('#comment-list').delegate('li[id^=comment-item] a[id^=reply-comment]', 'click', function () {
+                $('#comment-list form').remove();
+                var comment = $(this).closest('div[id^=comment-content]');
+                var commentId = comment.attr('id');
+                commentId = commentId.substr(commentId.lastIndexOf('-') + 1);
+                $.ajax({
+                    url: '/reply/add',
+                    type: 'Get',
+                    data: {
+                        id: commentId
+                    },
+                    success: function (data) {
+                        comment.find('div.action-bar').first().after(data);
+                    },
+                    error: function (xhr) {
+                        $('#reply-comment-error').text(xhr.responseText);
+                    }
+                })
+            })
+
+            //取消回复评论
+            $('#comment-list').delegate('#reply-cancel', 'click', function () {
+                $('#comment-list form').remove();
+                return false;
+            })
+
+            //编辑评论
+            $('#comment-list').delegate('li[id^=comment-item] a[id^=edit-comment]', 'click', function () {
+                $('#comment-list form').remove();
+                var comment = $(this).parent('div.action-bar');
+                var commentId = $(this).attr('id');
+                commentId = commentId.substr(commentId.lastIndexOf('-') + 1);
+
+                $.ajax({
+                    url: '/BookComment/edit',
+                    type: 'Get',
+                    data: {
+                        id: commentId
+                    },
+                    success: function (data) {
+                        comment.after(data);
+                    },
+                    error: function (xhr) {
+                        $('#reply-comment-error').text(xhr.responseText);
+                    }
+                })
+            })
+            //删除评论
+            $('#comment-list').delegate('li[id^=comment-item] a[id^=delete-comment]', 'click', function () {
+                $('#comment-list form').remove();
+                var commentId = $(this).attr('id');
+                commentId = commentId.substr(commentId.lastIndexOf('-') + 1);
+                var comment = $(this).parents('li[id^=comment-item]');
+                $.ajax({
+                    url: '/BookComment/delete',
+                    type: 'Post',
+                    data: {
+                        id: commentId
+                    },
+                    success: function (data) {
+                        comment.remove();
+                    },
+                    error: function (xhr) {
+                        $('#reply-comment-error').text(xhr.responseText);
+                    }
+                })
+            })
+
+            //取消编辑评论
+            $('#comment-list').delegate('#edit-comment-cancel', 'click', function () {
+                $('#comment-list form').remove();
+                return false;
+            })
+
+
+            //编辑回复
+            $('#comment-list div[id^=comment-reply]').delegate('li[id^=reply-item] a[id^=edit-reply]', 'click', function () {
+                $('#comment-list form').remove();
+                var replyId = $(this).attr('id');
+                replyId = replyId.substr(replyId.lastIndexOf('-') + 1);
+                var reply = $('#reply-content-' + replyId);
+                $.ajax({
+                    url: '/Reply/GetEdit',
+                    type: 'Get',
+                    data: {
+                        id: replyId
+                    },
+                    success: function (data) {
+                        reply.append(data);
+                    },
+                    error: function (xhr) {
+                        $('#edit-reply-error').text(xhr.responseText);
+                    }
+                })
+            })
+
+            //删除回复
+            $('#comment-list div[id^=comment-reply]').delegate('li[id^=reply-item] a[id^=delete-reply]', 'click', function () {
+                $('#comment-list form').remove();
+                var replyId = $(this).attr('id');
+                replyId = replyId.substr(replyId.lastIndexOf('-') + 1);
+                var reply = $(this).parents('li[id^=reply-item]');
+                $.ajax({
+                    url: '/Reply/Delete',
+                    type: 'Post',
+                    data: {
+                        id: replyId
+                    },
+                    success: function (data) {
+                        reply.remove();
+                    },
+                    error: function (xhr) {
+                        $('#edit-reply-error').text(xhr.responseText);
+                    }
+                })
+            })
+
+            //取消回复编辑
+            $('#comment-list').delegate('#edit-reply-cancel', 'click', function () {
+                $('#comment-list form').remove();
+                return false;
+            })
+
+            //回复回复
+            $('#comment-list div[id^=comment-reply]').delegate('li[id^=reply] a[id^=reply-reply]', 'click', function () {
+                $('#comment-list form').remove();
+                var reply = $(this).parents('div.action-bar');
+                var username = reply.parents('div[id^=reply-content]').first().find('a.username').first().text();
+                var comment = $(this).closest('div[id^=comment-reply]');
+                var commentId = comment.attr('id');
+                commentId = commentId.substr(commentId.lastIndexOf('-') + 1);
+                $.ajax({
+                    url: '/Reply/Add',
+                    type: 'Get',
+                    data: {
+                        id: commentId
+                    },
+                    success: function (data) {
+                        reply.after(data);
+                        comment.find('textarea[name=Content]').first().text("@" + username + " ");
+                    },
+                    error: function (xhr) {
+                        $('#reply-comment-error').text(xhr.responseText);
+                    }
+                })
+            })
+
+        })
+    </script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div id="footer">
+        
+    </div>
+    <div id="toTop">
+        <a href="#" class="ryi-angle-up"></a>
+    </div>
+
+    <script type="text/javascript">
+        $(function () {
+            $.ajaxSetup({ cache: false });
+            $('#footer').load('/editablearea/show?name=Footer');
+            $('#banner-btn-search').click(function () {
+                var q = $('input[name=q]').val();
+                if (q) {
+                    location.href = '/search?q=' + q;
+                } else {
+                    $('input[name=q]').attr('placeholder', '请输入您感兴趣的');
+                }
+            })
+        })
+        function confirmDelete() {
+            return confirm('确认删除？');
+        }
+
+        function scollToId(id) {
+            $('html, body').animate({
+                scrollTop: $(id).offset().top - 70
+            }, 200);
+        }
+        strHost = document.location.hostname;
+        if ((strHost.indexOf('ituring.com.cn') + strHost.indexOf('turingbook.com')) > -2) {
+            // google analytics begin
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-25520517-1']);
+            _gaq.push(['_setDomainName', 'none']);
+            _gaq.push(['_setAllowLinker', true]);
+            _gaq.push(['_trackPageview']);
+
+            (function () {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+            // google analytics end
+        };
+    </script>
+    
+    
+</body>
+</html>
+
+
+Process finished with exit code 0

@@ -1,0 +1,19 @@
+1、找到主网页的规律
+http://www.58pic.com/piccate/3-0-0-default-0_2_0_0_default_0-01.html
+http://www.58pic.com/piccate/3-0-0-default-0_2_0_0_default_0-02.html
+2、从主网页下提取子网址信息
+item["link"]=response.xpath("//a[@class='thumb-box']/@href").extract()
+3、从子网址中继续提取图片和图片名称信息
+a、通过xpath方法
+response = HtmlResponse(url=item["link"][j], body=body)
+item["picurl"]=response.xpath("//img[@id='show-area-pic']/@src").extract()
+item["picid"]=response.xpath("//img[@id='show-area-pic']/@title").extract()
+b、通过urllib.request
+图片网址
+paturl= '<img src="(http.*?)".*?show-area-pic'
+item["picurl"]=re.compile(paturl).findall(data)
+图片名称
+picid='id="show-area-pic".*?title="(.*?)"'
+item["picid"]=re.compile(picid).findall(data)
+
+

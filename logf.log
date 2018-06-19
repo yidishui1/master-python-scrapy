@@ -1,0 +1,2 @@
+2018-06-04 14:07:27 [scrapy] INFO: Scrapy 1.1.0rc3 started (bot: scrapybot)
+2018-06-04 14:07:27 [scrapy] INFO: Overridden settings: {'LOG_FILE': '../logf.log'}

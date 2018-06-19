@@ -1,0 +1,47 @@
+一：功能分析
+爬取安居客上某个省份的所有楼盘的关键信息：
+'楼盘名称' '楼盘特点' '参考单价' '物业类型' '开发商' '区域位置' '楼盘地址' '售楼处电话' '最低首付' '楼盘户型' '最新开盘' '交房时间' '售楼处地址' '预售许可证' '建筑类型' '产权年限' '容积率' '绿化率' '规划户数' '楼层状况' '工程进度' '物业管理费' '物业公司' '车位数' '车位比'
+
+可以在一级页面上获得的信息：周边均价、联系电话、二级页面的网址信息；
+通过二级页面网址够着楼盘详情页网址，进入后获取楼盘详情页信息。
+
+
+一级页面网址构造：url="https://nc.fang.anjuke.com/loupan/all/p"+str(i)+"/"
+
+
+二级页面网址:
+//a[@class='lp-name']/@href
+
+https://nc.fang.anjuke.com/loupan/435106.html
+https://nc.fang.anjuke.com/loupan/canshu-435106.html?from=loupan_tab
+pat1='(http://.*?/.*?/).*?html'
+pat2='http://.*?/.*?/(.*?html)'
+newurl=re.compile(pat1).findall(str(url))[0]+"canshu-"+re.compile(pat2).findall(str(url))[0]+"?from=loupan_tab"
+
+一级页面信息提取:
+周边均价：
+//div[2]/div[2]/div[1]/div[3]/div/a[2]/p[2]/span/text()
+联系电话：
+//p[@class='tel']/text()
+
+详情页面信息提取
+楼盘名称：
+1、/html/body/div[2]/div[1]/div[1]/div[1]/div[2]/ul/li[1]/div[2]/a
+2、/html/body/div[2]/div[1]/div[1]/div[1]/div[2]/ul/li[1]/div[2]/a
+楼盘特点：
+/html/body/div[2]/div[1]/div[1]/div[1]/div[2]/ul/li[2]/div[2]
+/html/body/div[2]/div[1]/div[1]/div[1]/div[2]/ul/li[2]/div[2]
+参考单价：
+/html/body/div[2]/div[1]/div[1]/div[1]/div[2]/ul/li[3]/div[2]/span
+/html/body/div[2]/div[1]/div[1]/div[1]/div[2]/ul/li[3]/div[2]
+
+开盘时间：
+/html/body/div[2]/div[1]/div[1]/div[2]/div[2]/ul/li[5]/div[2]
+
+
+
+
+创建数据库：
+Create database anjuke;
+Use anjuke；
+Create table myanjuke(id int(10) auto_increment primary key not null,name1 varchar(255),dz1 varchar(255),link1 varchar(255),tel1 varchar(255),lptd1 varchar(255),ckjg1 varchar(255),wylx1 varchar(255),kfs1 varchar(255),qywz1 varchar(255),lpdz1 varchar(255),zdsf1 varchar(255),lphx1 varchar(255),zxkp1 varchar(255),jfsj1 varchar(255),slcdz1 varchar(255),ysxkz1 varchar(255),jzlx1 varchar(255),cqnx1 varchar(255),rjl1 varchar(255),lhl1 varchar(255),ghhs1 varchar(255),lczk1 varchar(255),gcjd1 varchar(255),wyglf1 varchar(255),wygs1 varchar(255),cws1 varchar(255),cwb1 varchar(255))

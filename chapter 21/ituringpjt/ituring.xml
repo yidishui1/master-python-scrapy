@@ -1,0 +1,1177 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+
+<Styles>
+ <Style ss:ID="Default" ss:Name="Normal">
+  <Alignment ss:Vertical="Bottom"/>
+  <Borders/>
+  <Font/>
+  <Interior/>
+  <NumberFormat/>
+  <Protection/>
+ </Style>
+ <Style ss:ID="s27">
+  <Font x:Family="Swiss" ss:Color="#0000FF" ss:Bold="1"/>
+ </Style>
+ <Style ss:ID="s21">
+  <NumberFormat ss:Format="yyyy\-mm\-dd"/>
+ </Style>
+ <Style ss:ID="s22">
+  <NumberFormat ss:Format="yyyy\-mm\-dd\ hh:mm:ss"/>
+ </Style>
+ <Style ss:ID="s23">
+  <NumberFormat ss:Format="hh:mm:ss"/>
+ </Style>
+</Styles>
+
+ <Worksheet ss:Name="Sheet1">
+  <ss:Table>
+   <ss:Row>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">id</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">url1</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">name</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">recommend</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">reader</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">author</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">translator</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">label</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">introduction</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">date</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">price</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">pages</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">printing</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">state</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">otitle</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">characteristic</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">authorintroduction</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/2556</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">零压力学Python</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">3.0K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">布莱恩•奥弗兰德(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">袁国忠</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"> ,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书以Python为背景讲述编程，用示例强化理解、条分缕析Python工作原理，给出了经验总结及其语言特性的缘由和技巧。内容包括Python编程基础知识、如何独立编程、程序片段的功能及来由、创建实用和可重用代码、面向对象编程等。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-06-01</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">79.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">308</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Python Without Fear                        </Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+针对Python语言初学者，BrianOverland以其多本成功的语言入门教程编写方式，让读者在短时间内掌握地道的Python思考方式和编程技能。&lt;/br&gt;
+&lt;/br&gt;
+•涵盖Python基础知识到中高级功能；&lt;/br&gt;
+•通过逐行讲解示例程序诠释编程概念；&lt;/br&gt;
+•引导读者自己动手编写有趣实用的程序，包括游戏、图形学、数据库应用程序、智力游戏等；&lt;/br&gt;
+•精通Python行事风格，避开常见语言陷阱。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+布莱恩•奥弗兰德（BrianOverland），成功的跨界程序员；毕业于耶鲁经济学专业，师从诺贝尔经济学奖得主保罗•克鲁格曼；自学编程后入职微软，30余年编程经验；对如何让读者更轻松学习编程技术情有独钟，一直致力于撰写相关文档和图书，其著作以能够深入浅出阐述复杂概念而深受读者好评。
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">2</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/2450</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">一个64位操作系统的设计与实现</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">18</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">6.4K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;ahref=&quot;/space/186920&quot;&gt;田宇&lt;/a&gt;(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"> ,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书讲述了一个64位多核操作系统的自制过程。此操作系统自制过程是先从虚拟平台构筑起一个基础框架，随后再将基础框架移植到物理平台中进行升级、完善与优化。为了凸显64位多核操作系统的特点，物理平台选用搭载着IntelCore-i7处理器的笔记本电脑。与此同时，本书还将Linux内核的源码精髓、诸多官方白皮书以及多款常用协议浓缩于其中，可使读者在读完本书后能够学以致用，进而达到理论联系实际的目的。&lt;/br&gt;
+全书共分为16章。第1~2章讲述了操作系统的基础概念和开发操作系统需要掌握的知识；第3~5</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-05-31</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">139.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">680</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"> </Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+1.基于IntelCorei7处理器的64位多核操作系统&lt;/br&gt;
+2.引入诸多Linux内核的设计精髓&lt;/br&gt;
+3.既可在Bochs虚拟机中执行，又可通过U盘引导运行于笔记本电脑&lt;/br&gt;
+
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+田宇Linux内核爱好者，曾在多家大中型软件公司从事软件开发工作，参与过多款高端嵌入式产品的开发研制，主要负责Linux内核和驱动的研发，以及开源操作系统环境的深度定制。&lt;/br&gt;
+
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">3</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/2039</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Spark高级数据分析（第2版）</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2.0K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">[美]桑迪&amp;#183;里扎,[美]于里&amp;#183;莱瑟森,[英]肖恩&amp;#183;欧文,[美]乔希&amp;#183;威尔斯(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">龚少成</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">大数据,数据分析,Spark,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书是使用Spark进行大规模数据分析的实战宝典，由知名数据科学家撰写。本书在第1版的基础上，针对Spark近年来的发展，对样例代码和所使用的资料进行了大量更新。新版Spark使用了全新的核心API，MLlib和SparkSQL两个子项目也发生了较大变化，本书为关注Spark发展趋势的读者提供了与时俱进的资料，例如Dataset和DataFrame的使用，以及与DataFrameAPI高度集成的SparkMLAPI。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-05-28</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">69.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">226</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Advanced Analytics with Spark: Patterns for Learning from Data at Scale, 2E                        </Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+作为计算框架，Spark速度快，开发简单，能同时兼顾批处理和实时数据分析，因此很快被广大企业级用户所采纳，并随着近年人工智能的崛起而成为分析和挖掘大数据的重要得力工具。&lt;/br&gt;
+&lt;/br&gt;
+本书由业内知名数据科学家执笔，通过丰富的示例展示了如何结合Spark、统计方法和真实世界数据集来解决数据分析问题，既涉及模型的构建和评价，也涵盖数据清洗、数据预处理和数据探索，并描述了如何将结果变为生产应用，是运用ApacheSpark进行大数据分析和处理的实战宝典。&lt;/br&gt;
+&lt;/br&gt;
+第2版根据新</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+【作者简介】&lt;/br&gt;
+&lt;/br&gt;
+桑迪·里扎（SandyRyza），Spark项目代码提交者、Hadoop项目管理委员会委员，TimeSeriesforSpark项目创始人。曾任Cloudera公司高级数据科学家，现就职于Remix公司从事公共交通算法开发。&lt;/br&gt;
+&lt;/br&gt;
+于里·莱瑟森（UriLaserson），MIT博士毕业，致力于用技术解决遗传学问题，曾利用Hadoop生态系统开发了可扩展的基因组学和免疫学技术。目前是西奈山伊坎医学院遗传学助理教授，曾任Cloudera公司核心</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">4</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/1413</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">机器学习与优化</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">10</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">14.2K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">[意]罗伯托&amp;#183;巴蒂蒂,[意]毛罗&amp;#183;布鲁纳托(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">人工智能</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">人工智能,机器学习,数据分析,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书是机器学习实战领域的一本佳作，从机器学习的基本概念讲起，旨在将初学者引入机器学习的大门，并走上实践的道路。本书通过讲解机器学习中的监督学习和无监督学习，并结合特征选择和排序、聚类方法、文本和网页挖掘等热点问题，论证了“优化是力量之源”这一观点，为机器学习在企业中的应用提供了切实可行的操作建议。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-05-21</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">89.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">272</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;a href=&quot;http://www.amazon.com/The-LION-Way-Intelligent-Optimization/dp/1496034023/ref=sr_1_2?ie=UTF8&amp;amp;amp;qid=1399367283&amp;amp;amp;sr=8-2&amp;amp;amp;keywords=Lion+Way&quot; target=&quot;_blank&quot;&gt;The LION Way: Machine Learning plus Intelligent Optimization&lt;/a&gt;
+      </Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+如今是人工智能高歌猛进的时代，机器学习的发展也如火如荼。然而，复杂的数学公式和难解的专业术语容易令刚接触这一领域的学习者望而生畏。有没有这样一本机器学习的书，能摒弃复杂的公式推导，带领读者通过实践来掌握机器学习的方法？&lt;/br&gt;
+&lt;/br&gt;
+《机器学习与优化》正是这样一本书！它的写作脱胎于意大利特伦托大学机器学习与智能优化实验室（LIONlab）的研究项目，语言轻松幽默，内容图文并茂，涵盖了机器学习中可能遇到的各方面知识。更重要的是，书中特别介绍了两个机器学习的应用，即信息检索和协同推荐，让</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+【作者简介】&lt;/br&gt;
+&lt;/br&gt;
+罗伯托·巴蒂蒂（RobertoBattiti）&lt;/br&gt;
+人工智能领域先驱，IEEE会士。因在无功搜索优化（RSO）方向做出了开创性的工作而名震学界。目前为意大利特伦托大学教授，同时担任特伦托大学机器学习与智能优化实验室（LIONlab）主任。&lt;/br&gt;
+&lt;/br&gt;
+毛罗·布鲁纳托（MauroBrunato）&lt;/br&gt;
+意大利特伦托大学助理教授，LION研究团队成员。&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+【译者简介】&lt;/br&gt;
+&lt;/br&gt;
+王彧弋&lt;/br&gt;
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">5</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/1885</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">图解深度学习</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">10</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">8.7K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">山下隆义(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">神经网络</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">神经网络,图解,深度学习,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书从深度学习的发展历程讲起，以丰富的图例从理论和实践两个层面&lt;/br&gt;
+介绍了深度学习的各种方法，以及深度学习在图像识别等领域的应用案例。内&lt;/br&gt;
+容涉及神经网络、卷积神经网络、受限玻尔兹曼机、自编码器、泛化能力的&lt;/br&gt;
+提高等。此外，还介绍了包括Theano、Pylearn2、Caffe、DIGITS、Chainer和&lt;/br&gt;
+TensorFlow在内的深度学习工具的安装和使用方法。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-05-21</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">59.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">206</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">四色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;a href=&quot;https://www.amazon.co.jp/dp/406153825X&quot; target=&quot;_blank&quot;&gt;イラストで学ぶ ディープラーニング (KS情報科学専門書)&lt;/a&gt;
+                        </Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+1.实用&lt;/br&gt;
+136张图+60段代码帮助理解相关理论和工具的使用方法。可作为专业理论书籍、参考文献的辅助读物随时翻阅&lt;/br&gt;
+&lt;/br&gt;
+2.专业&lt;/br&gt;
+浓缩深度学习的关键知识点，内容涉及神经网络、卷积神经网络、受限玻尔兹曼机、自编码器、泛化能力的提高等。同时辅以代码，介绍了Theano、Pylearn2、Caffe、DIGITS、Chainer和TensorFlow等深度学习工具的安装和使用方法。&lt;/br&gt;
+3.易懂&lt;/br&gt;
+图文并茂，知识点清晰直观、便于理解。全彩印刷、版式</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+山下隆义（作者）&lt;/br&gt;
+1978年出生于日本神户，2002年修完博士前期课程，并于当年入职欧姆龙股份有限公司，主要从事快速人脸图像检测相关的软件研究和开发。2011年在日本中部大学研究生院工学研究科修完博士后期课程，获得工学博士学位。2014年开始担任中部大学工学院信息工程系讲师。目前从事动画处理、模式识别和机器学习相关的研究。曾多次荣获日本深度学习研究相关奖项，并在多个相关研讨会上担任讲师。&lt;/br&gt;
+张弥（译者）&lt;/br&gt;
+毕业于大连外国语大学日本语学院。现就职于某日本大型跨国公司，</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">6</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/1794</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">用户体验设计：100堂入门课</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2.7K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">JoelMarsh(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">交互设计</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">交互设计,ux,体验设计,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书是用户体验设计入门书，将真实项目中用户体验设计的实际流程细分&lt;/br&gt;
+为100节小课程，涵盖与用户体验相关的常见话题，包括：用户体验常识和基&lt;/br&gt;
+本概念、用户体验背后的认知心理学、各种真实设计案例、设计发布后如何观&lt;/br&gt;
+测设计效果，等等。&lt;/br&gt;
+
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-05-18</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">59.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">253</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">双色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;a href=&quot;http://shop.oreilly.com/product/0636920035084.do&quot; target=&quot;_blank&quot;&gt;UX for Beginners&lt;/a&gt;
+                        </Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+拿起这本书的你一定是想开始学习用户体验（UX）设计了。恭喜你，选对书了！&lt;/br&gt;
+不论你是想设计移动应用还是网站，抑或略懂一点儿设计想更深入学习UX设计，本书提供的这些快速高效、极易上手的课程都值得一看。&lt;/br&gt;
+&lt;/br&gt;
+本书前身是非常著名的UXCrashCourse系列课程，由JoelMarsh在其博客TheHipperElement上发布，阅读数量已过百万。书中案例均遵循真实项目中UX设计的实际流程，便于读者边学边实践。&lt;/br&gt;
+&lt;/br&gt;
+•	UX设计基础知识，零经验也可读懂</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+乔尔•马什（JoelMarsh，HipperElement@Twitter）拥有十余年经验的专业设计师。曾效力于众多颠覆性的初创公司和著名国际品牌，其中包括三星、麦当劳等。
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">7</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/1940</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Hadoop深度学习</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">3.2K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">DipayanDev(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">范东来 </Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">机器学习,hadoop,深度学习,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书主要目标是处理很多深度学习应用的热点问题并向读者披露解决方案的细节。主要内容分为7章：第1章介绍深度学习基础知识，第2章介绍大规模数据的分布式深度学习，第3章介绍卷积神经网络，第4章介绍循环神经网络，第5章介绍受限玻尔兹曼机，第6章介绍自动编码器，第7章介绍如何用Hadoop玩转深度学习。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-05-14</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">39.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">125</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;a href=&quot;https://www.amazon.com/Deep-Learning-Hadoop-Dipayan-Dev/dp/1787124762/ref=sr_1_1?ie=UTF8&amp;amp;amp;qid=1480988338&amp;amp;amp;sr=8-1&amp;amp;amp;keywords=9781787124769&quot; target=&quot;_blank&quot;&gt;Deep Learning with Hadoop&lt;/a&gt;
+                        </Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+一本书读懂深度学习来龙去脉，概览Hadoop如何玩转深度学习&lt;/br&gt;
+&lt;/br&gt;
+-快速了解深度学习基本概念&lt;/br&gt;
+-深度学习模型在大数据上的表现&lt;/br&gt;
+-HDFS、Map-Reduce、YARN、Deeplearning4j如何实现深度学习模型&lt;/br&gt;
+-Hadoop如何实现分布式卷积神经网络和循环神经网络&lt;/br&gt;
+-受限玻尔兹曼机以及分布式深度信念网络及其实现示例&lt;/br&gt;
+-自动编码器&lt;/br&gt;
+-分布式环境中常见机器学习应用的设计
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+DipayanDev&lt;/br&gt;
+多年大数据开发经验，擅长非关系型数据库技术和Hadoop框架，曾在IEEE和Springer的期刊上多次发表相关研究论文。现任印度PromptCloud公司软件工程师。
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">8</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/2556</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">零压力学Python</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">3.0K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">布莱恩•奥弗兰德(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">袁国忠</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"> ,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书以Python为背景讲述编程，用示例强化理解、条分缕析Python工作原理，给出了经验总结及其语言特性的缘由和技巧。内容包括Python编程基础知识、如何独立编程、程序片段的功能及来由、创建实用和可重用代码、面向对象编程等。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-06-01</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">79.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">308</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">PythonWithoutFear</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+针对Python语言初学者，BrianOverland以其多本成功的语言入门教程编写方式，让读者在短时间内掌握地道的Python思考方式和编程技能。&lt;/br&gt;
+&lt;/br&gt;
+•涵盖Python基础知识到中高级功能；&lt;/br&gt;
+•通过逐行讲解示例程序诠释编程概念；&lt;/br&gt;
+•引导读者自己动手编写有趣实用的程序，包括游戏、图形学、数据库应用程序、智力游戏等；&lt;/br&gt;
+•精通Python行事风格，避开常见语言陷阱。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+布莱恩•奥弗兰德（BrianOverland），成功的跨界程序员；毕业于耶鲁经济学专业，师从诺贝尔经济学奖得主保罗•克鲁格曼；自学编程后入职微软，30余年编程经验；对如何让读者更轻松学习编程技术情有独钟，一直致力于撰写相关文档和图书，其著作以能够深入浅出阐述复杂概念而深受读者好评。
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">9</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/2450</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">一个64位操作系统的设计与实现</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">18</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">6.4K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;ahref=&quot;/space/186920&quot;&gt;田宇&lt;/a&gt;(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"> ,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书讲述了一个64位多核操作系统的自制过程。此操作系统自制过程是先从虚拟平台构筑起一个基础框架，随后再将基础框架移植到物理平台中进行升级、完善与优化。为了凸显64位多核操作系统的特点，物理平台选用搭载着IntelCore-i7处理器的笔记本电脑。与此同时，本书还将Linux内核的源码精髓、诸多官方白皮书以及多款常用协议浓缩于其中，可使读者在读完本书后能够学以致用，进而达到理论联系实际的目的。&lt;/br&gt;
+全书共分为16章。第1~2章讲述了操作系统的基础概念和开发操作系统需要掌握的知识；第3~5</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-05-31</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">139.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">680</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+1.基于IntelCorei7处理器的64位多核操作系统&lt;/br&gt;
+2.引入诸多Linux内核的设计精髓&lt;/br&gt;
+3.既可在Bochs虚拟机中执行，又可通过U盘引导运行于笔记本电脑&lt;/br&gt;
+
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+田宇Linux内核爱好者，曾在多家大中型软件公司从事软件开发工作，参与过多款高端嵌入式产品的开发研制，主要负责Linux内核和驱动的研发，以及开源操作系统环境的深度定制。&lt;/br&gt;
+
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">10</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/2039</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Spark高级数据分析（第2版）</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2.0K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">[美]桑迪&amp;#183;里扎,[美]于里&amp;#183;莱瑟森,[英]肖恩&amp;#183;欧文,[美]乔希&amp;#183;威尔斯(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">龚少成</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">大数据,数据分析,Spark,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书是使用Spark进行大规模数据分析的实战宝典，由知名数据科学家撰写。本书在第1版的基础上，针对Spark近年来的发展，对样例代码和所使用的资料进行了大量更新。新版Spark使用了全新的核心API，MLlib和SparkSQL两个子项目也发生了较大变化，本书为关注Spark发展趋势的读者提供了与时俱进的资料，例如Dataset和DataFrame的使用，以及与DataFrameAPI高度集成的SparkMLAPI。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-05-28</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">69.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">226</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">AdvancedAnalyticswithSpark:PatternsforLearningfromDataatScale,2E</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+作为计算框架，Spark速度快，开发简单，能同时兼顾批处理和实时数据分析，因此很快被广大企业级用户所采纳，并随着近年人工智能的崛起而成为分析和挖掘大数据的重要得力工具。&lt;/br&gt;
+&lt;/br&gt;
+本书由业内知名数据科学家执笔，通过丰富的示例展示了如何结合Spark、统计方法和真实世界数据集来解决数据分析问题，既涉及模型的构建和评价，也涵盖数据清洗、数据预处理和数据探索，并描述了如何将结果变为生产应用，是运用ApacheSpark进行大数据分析和处理的实战宝典。&lt;/br&gt;
+&lt;/br&gt;
+第2版根据新</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+【作者简介】&lt;/br&gt;
+&lt;/br&gt;
+桑迪·里扎（SandyRyza），Spark项目代码提交者、Hadoop项目管理委员会委员，TimeSeriesforSpark项目创始人。曾任Cloudera公司高级数据科学家，现就职于Remix公司从事公共交通算法开发。&lt;/br&gt;
+&lt;/br&gt;
+于里·莱瑟森（UriLaserson），MIT博士毕业，致力于用技术解决遗传学问题，曾利用Hadoop生态系统开发了可扩展的基因组学和免疫学技术。目前是西奈山伊坎医学院遗传学助理教授，曾任Cloudera公司核心</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">11</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/1822</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">陶哲轩实分析（第3版）</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">7</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">7.5K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">陶哲轩(TerenceTao)(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">统计学</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">统计学,数学,陶哲轩,实分析,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书主要介绍了数学分析中的内容，以构造数系和集合论开篇，逐渐深入到级数、函数等高等数学内容，举例详实，每部分内容后的习题与正文内容密切相关，有利于读者掌握所学的内容。本书在附录部分还介绍了数理逻辑基础和十进制，突出了严格性和基础性。&lt;/br&gt;
+&lt;/br&gt;
+
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-05-22</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">99.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">443</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;ahref=&quot;http://www.amazon.com/Analysis-I-Texts-Readings-Mathematics/dp/9380250649/ref=sr_1_1?s=books&amp;amp;amp;ie=UTF8&amp;amp;amp;qid=1434618325&amp;amp;amp;sr=1-1&amp;amp;amp;keywords=analysis%20tao&amp;amp;amp;pebp=1434618338581&amp;amp;amp;perid=1TK992BYVZ63A989VAEY&quot;t</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书源自华裔天才数学家、菲尔兹奖得主陶哲轩在加州大学洛杉矶分校教授实分析课程的讲义，自第1版出版以来一直深受读者喜爱。原书分为两卷，中译本将其合并出版。&lt;/br&gt;
+&lt;/br&gt;
+全书从分析的源头——数系的结构和集合论开始，然后引向分析基础，再进入幂级数、多元微分学和傅里叶分析，最后介绍勒贝格积分，几乎完全是以具体的实直线和欧几里得空间为背景，完美结合了严格性和直观性。另外，课程材料和习题配合无间，便于读者学习。&lt;/br&gt;
+&lt;/br&gt;
+第3版对之前的版本进行了修订，接受了前两版读者的一些修正意见</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+陶哲轩1975年出生，享誉世界的澳籍华裔天才数学家，智商超过220，被誉为“数学界的莫扎特”。12岁获得国际数学奥林匹克竞赛金牌（这项纪录至今无人打破），2006年获得数学界的诺贝尔奖——菲尔兹奖，2007年当选英国皇家学会会士。曾与本•格林合作解决了2300年前由欧几里得提出的与“孪生质数”相关的猜想，在调和分析、偏微分方程、组合数学、解析数论、算术数论等多个重要数学研究领域都取得了卓越成果。陶哲轩15岁时所著的SolvingMathematicalProblems是一本数学解题思路科普书</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">12</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/1413</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">机器学习与优化</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">10</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">14.2K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">[意]罗伯托&amp;#183;巴蒂蒂,[意]毛罗&amp;#183;布鲁纳托(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">人工智能</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">人工智能,机器学习,数据分析,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书是机器学习实战领域的一本佳作，从机器学习的基本概念讲起，旨在将初学者引入机器学习的大门，并走上实践的道路。本书通过讲解机器学习中的监督学习和无监督学习，并结合特征选择和排序、聚类方法、文本和网页挖掘等热点问题，论证了“优化是力量之源”这一观点，为机器学习在企业中的应用提供了切实可行的操作建议。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-05-21</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">89.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">272</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;ahref=&quot;http://www.amazon.com/The-LION-Way-Intelligent-Optimization/dp/1496034023/ref=sr_1_2?ie=UTF8&amp;amp;amp;qid=1399367283&amp;amp;amp;sr=8-2&amp;amp;amp;keywords=Lion+Way&quot;target=&quot;_blank&quot;&gt;TheLIONWay:MachineLearningplusIntelligentOptimization&lt;/a&gt;
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+如今是人工智能高歌猛进的时代，机器学习的发展也如火如荼。然而，复杂的数学公式和难解的专业术语容易令刚接触这一领域的学习者望而生畏。有没有这样一本机器学习的书，能摒弃复杂的公式推导，带领读者通过实践来掌握机器学习的方法？&lt;/br&gt;
+&lt;/br&gt;
+《机器学习与优化》正是这样一本书！它的写作脱胎于意大利特伦托大学机器学习与智能优化实验室（LIONlab）的研究项目，语言轻松幽默，内容图文并茂，涵盖了机器学习中可能遇到的各方面知识。更重要的是，书中特别介绍了两个机器学习的应用，即信息检索和协同推荐，让</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+【作者简介】&lt;/br&gt;
+&lt;/br&gt;
+罗伯托·巴蒂蒂（RobertoBattiti）&lt;/br&gt;
+人工智能领域先驱，IEEE会士。因在无功搜索优化（RSO）方向做出了开创性的工作而名震学界。目前为意大利特伦托大学教授，同时担任特伦托大学机器学习与智能优化实验室（LIONlab）主任。&lt;/br&gt;
+&lt;/br&gt;
+毛罗·布鲁纳托（MauroBrunato）&lt;/br&gt;
+意大利特伦托大学助理教授，LION研究团队成员。&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+【译者简介】&lt;/br&gt;
+&lt;/br&gt;
+王彧弋&lt;/br&gt;
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">13</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/1885</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">图解深度学习</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">10</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">8.7K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">山下隆义(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">神经网络</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">神经网络,图解,深度学习,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书从深度学习的发展历程讲起，以丰富的图例从理论和实践两个层面&lt;/br&gt;
+介绍了深度学习的各种方法，以及深度学习在图像识别等领域的应用案例。内&lt;/br&gt;
+容涉及神经网络、卷积神经网络、受限玻尔兹曼机、自编码器、泛化能力的&lt;/br&gt;
+提高等。此外，还介绍了包括Theano、Pylearn2、Caffe、DIGITS、Chainer和&lt;/br&gt;
+TensorFlow在内的深度学习工具的安装和使用方法。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-05-21</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">59.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">206</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">四色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;ahref=&quot;https://www.amazon.co.jp/dp/406153825X&quot;target=&quot;_blank&quot;&gt;イラストで学ぶディープラーニング(KS情報科学専門書)&lt;/a&gt;
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+1.实用&lt;/br&gt;
+136张图+60段代码帮助理解相关理论和工具的使用方法。可作为专业理论书籍、参考文献的辅助读物随时翻阅&lt;/br&gt;
+&lt;/br&gt;
+2.专业&lt;/br&gt;
+浓缩深度学习的关键知识点，内容涉及神经网络、卷积神经网络、受限玻尔兹曼机、自编码器、泛化能力的提高等。同时辅以代码，介绍了Theano、Pylearn2、Caffe、DIGITS、Chainer和TensorFlow等深度学习工具的安装和使用方法。&lt;/br&gt;
+3.易懂&lt;/br&gt;
+图文并茂，知识点清晰直观、便于理解。全彩印刷、版式</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+山下隆义（作者）&lt;/br&gt;
+1978年出生于日本神户，2002年修完博士前期课程，并于当年入职欧姆龙股份有限公司，主要从事快速人脸图像检测相关的软件研究和开发。2011年在日本中部大学研究生院工学研究科修完博士后期课程，获得工学博士学位。2014年开始担任中部大学工学院信息工程系讲师。目前从事动画处理、模式识别和机器学习相关的研究。曾多次荣获日本深度学习研究相关奖项，并在多个相关研讨会上担任讲师。&lt;/br&gt;
+张弥（译者）&lt;/br&gt;
+毕业于大连外国语大学日本语学院。现就职于某日本大型跨国公司，</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">14</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/1794</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">用户体验设计：100堂入门课</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2.7K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">JoelMarsh(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">交互设计</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">交互设计,ux,体验设计,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书是用户体验设计入门书，将真实项目中用户体验设计的实际流程细分&lt;/br&gt;
+为100节小课程，涵盖与用户体验相关的常见话题，包括：用户体验常识和基&lt;/br&gt;
+本概念、用户体验背后的认知心理学、各种真实设计案例、设计发布后如何观&lt;/br&gt;
+测设计效果，等等。&lt;/br&gt;
+
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-05-18</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">59.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">253</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">双色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;ahref=&quot;http://shop.oreilly.com/product/0636920035084.do&quot;target=&quot;_blank&quot;&gt;UXforBeginners&lt;/a&gt;
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+拿起这本书的你一定是想开始学习用户体验（UX）设计了。恭喜你，选对书了！&lt;/br&gt;
+不论你是想设计移动应用还是网站，抑或略懂一点儿设计想更深入学习UX设计，本书提供的这些快速高效、极易上手的课程都值得一看。&lt;/br&gt;
+&lt;/br&gt;
+本书前身是非常著名的UXCrashCourse系列课程，由JoelMarsh在其博客TheHipperElement上发布，阅读数量已过百万。书中案例均遵循真实项目中UX设计的实际流程，便于读者边学边实践。&lt;/br&gt;
+&lt;/br&gt;
+•	UX设计基础知识，零经验也可读懂</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+乔尔•马什（JoelMarsh，HipperElement@Twitter）拥有十余年经验的专业设计师。曾效力于众多颠覆性的初创公司和著名国际品牌，其中包括三星、麦当劳等。
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">15</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/1940</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Hadoop深度学习</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">3.2K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">DipayanDev(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">范东来 </Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">机器学习,hadoop,深度学习,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书主要目标是处理很多深度学习应用的热点问题并向读者披露解决方案的细节。主要内容分为7章：第1章介绍深度学习基础知识，第2章介绍大规模数据的分布式深度学习，第3章介绍卷积神经网络，第4章介绍循环神经网络，第5章介绍受限玻尔兹曼机，第6章介绍自动编码器，第7章介绍如何用Hadoop玩转深度学习。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-05-14</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">39.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">125</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;ahref=&quot;https://www.amazon.com/Deep-Learning-Hadoop-Dipayan-Dev/dp/1787124762/ref=sr_1_1?ie=UTF8&amp;amp;amp;qid=1480988338&amp;amp;amp;sr=8-1&amp;amp;amp;keywords=9781787124769&quot;target=&quot;_blank&quot;&gt;DeepLearningwithHadoop&lt;/a&gt;
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+一本书读懂深度学习来龙去脉，概览Hadoop如何玩转深度学习&lt;/br&gt;
+&lt;/br&gt;
+-快速了解深度学习基本概念&lt;/br&gt;
+-深度学习模型在大数据上的表现&lt;/br&gt;
+-HDFS、Map-Reduce、YARN、Deeplearning4j如何实现深度学习模型&lt;/br&gt;
+-Hadoop如何实现分布式卷积神经网络和循环神经网络&lt;/br&gt;
+-受限玻尔兹曼机以及分布式深度信念网络及其实现示例&lt;/br&gt;
+-自动编码器&lt;/br&gt;
+-分布式环境中常见机器学习应用的设计
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+DipayanDev&lt;/br&gt;
+多年大数据开发经验，擅长非关系型数据库技术和Hadoop框架，曾在IEEE和Springer的期刊上多次发表相关研究论文。现任印度PromptCloud公司软件工程师。
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">16</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/1962</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">OpenCV计算机视觉编程攻略（第3版）</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">3.9K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">RobertLaganiere(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">相银初</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">计算机视觉,opencv,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书结合C++和OpenCV全面讲解计算机视觉编程，不仅涵盖计算机视觉和图像处理的基础知识，而且通过完整示例讲解OpenCV的重要类和函数。主要内容包括OpenCV库的安装和部署、图像增强、像素操作、图形分析等各种技术，并且详细介绍了如何处理来自文件或摄像机的视频，以及如何检测和跟踪移动对象。&lt;/br&gt;
+第3版针对OpenCV最新版本进行了修改，调整了很多函数和算法说明，还增加了立体图像深度检测、运动目标跟踪、人脸识别、人脸定位、行人检测等内容，适合计算机视觉新手、专业软件开发人员、学生，以</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-05-09</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">79.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">308</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;ahref=&quot;https://www.amazon.com/OpenCV-Computer-Application-Programming-Cookbook/dp/1786469715/ref=sr_1_3?ie=UTF8&amp;amp;amp;qid=1465882695&amp;amp;amp;sr=8-3&amp;amp;amp;keywords=%E2%80%98OpenCV+Computer+Vision+Application+Programming+Cookbook&quot;target=&quot;_blank&quot;&gt;O</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+作为人工智能的“眼睛”，计算机视觉技术一直备受关注，辅助驾驶、视频监控等相关应用也越来越多。流行的开源程序库OpenCV无疑是开发智能计算机视觉程序的不二选择。它包含500多个用于图像和视频分析的优化算法，2013年升级的OpenCV3版本在易用性上也有了极大提升。&lt;/br&gt;
+本书系统介绍OpenCV3，带领读者由浅入深地了解如何开发计算机视觉程序。作者从构建可以读取并显示图像的简单应用开始，解释和探讨了图形和图像识别的具体方法，对机器学习和目标识别等当前流行的主题也有介绍。&lt;/br&gt;
+&lt;/</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+RobertLaganière，加拿大渥太华大学电气工程与计算机科学学院教授，并在VIVA实验室执教。曾获得基于内容的视频分析、视觉监控、驾驶辅助、目标识别与跟踪等领域的多项专利。VisualCortek公司创始人，Cognivue、iWatchlife、TempoAnalytics等多家初创公司首席科学家。&lt;/br&gt;
+个人网站：http://www.laganiere.name/。
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">17</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/2483</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Java轻松学</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">3.9K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">BrysonPayne(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">袁国忠</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Java,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书是Java基础教程类图书，通过开发实际的桌面和移动应用，从实战角度指导读者快速上手Java编程。主要内容包括：Java、Eclipse和AndroidStudio的安装与设置，JShell的用法，条件、循环、方法变量、类等Java编程概念，函数创建，GUI构建，代码调试，常见错误的规避。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-05-09</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">59.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">243</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">LearnJavatheEasyWay</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+Java是世界上非常流行的一门功能强大的多平台编程语言，但学习曲线十分陡峭。本书从实际项目着手，针对Java零基础读者，从安装和设置Java开发工具开始，一步步帮你消除Java学习中的拦路虎，让你能够立即开发真实可行的应用程序。&lt;/br&gt;
+&lt;/br&gt;
+在创建应用的过程中，你将学习：&lt;/br&gt;
+&lt;/br&gt;
+-执行计算、操作文本字符串以及生成随机颜色；&lt;/br&gt;
+-使用条件、循环和方法让程序简洁且响应迅速；&lt;/br&gt;
+-创建函数以重用代码并节省时间；&lt;/br&gt;
+-创建图形用户界面元素，包括按钮、</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+BrysonPayne&lt;/br&gt;
+北佐治亚大学计算机科学系终身教授，并曾任该校CEO。从事Java教学工作近20年，深谙教学之道。一直致力于与全球的K-12学校合作以促进计算机科学教育，在Udemy上所开设的安全方面的培训课程吸引了全球150多个国家的数万名学生。
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">18</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/2012</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">高效算法：竞赛、应试与提高必修128例</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">4</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">6.1K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">[法]ChristophD&amp;#252;rrJill-J&amp;#234;nnVie(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">史世强</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"> ,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书旨在探讨如何优化算法效率，详细阐述了经典算法和特殊算法的实现、应用技巧和复杂度验证过程，内容由浅入深，能帮助读者快速掌握复杂度适当、正确率高的高效编程方法以及自检、自测技巧，是参加ACM/ICPC、GoogleCodeJam等国际编程竞赛、备战编程考试、提高编程效率、优化编程方法的参考书目。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-05-03</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">55.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">193</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;ahref=&quot;https://www.amazon.fr/Programmation-Efficace-Algorithmes-Compris-Python/dp/2340010055/ref=sr_1_2?ie=UTF8&amp;amp;amp;qid=1484787094&amp;amp;amp;sr=8-2&amp;amp;amp;keywords=algorithme&quot;target=&quot;_blank&quot;&gt;ProgrammationEfficace&lt;/a&gt;
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+法国畅销算法与编程参考书&lt;/br&gt;
+128个简单、实用的算法实例&lt;/br&gt;
+如何优化时间复杂度，实现高效编程&lt;/br&gt;
+国际编程大赛导师经验精髓，破解竞赛的制胜秘籍&lt;/br&gt;
+提高竞赛、应试与编程技能
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+ChristophDürr，法国国家科学研究院研究员，巴黎皮埃尔-玛丽•居里大学博士生导师，OperationResearch科研组研究主任。&lt;/br&gt;
+&lt;/br&gt;
+Jill-JênnVie，法国高等电力学院博士、算法讲师，担任法国高等师范学院Paris-Saclay团队在ACM竞赛中的算法导师；曾任法国国际编程大赛Prologin主席，并于2014年获GoogleRISEAward。&lt;/br&gt;
+
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">19</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/2072</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">去中心化应用：区块链技术概述</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">5</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">6.3K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">SirajRaval(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">吴海星</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">应用开发,比特币,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+在这本实用指南中，作者解释了为什么去中心化应用（dapp）将比现在最流行的Web应用得到更广泛的使用以及实现更多盈利，展示了如何使用现有工具来创建可用的dapp及其市场，并研究了目前两个成功的dapp案例。读者将了解到区块链的加密存储台账、scarce-asset模型和点对点技术如何提供比当前软件模型更灵活、更具激励性的结构。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-05-03</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">39.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">107</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;ahref=&quot;http://www.amazon.com/Decentralized-Applications-Harnessing-Blockchain-Technology/dp/1491924543/ref=sr_1_1?s=books&amp;amp;amp;ie=UTF8&amp;amp;amp;qid=1448593134&amp;amp;amp;sr=1-1&amp;amp;amp;keywords=9781491924549&quot;target=&quot;_blank&quot;&gt;DecentralizedApplications&lt;</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+随着区块链技术的发展，传统的服务器-客户端模型可能会被颠覆，开发人员不用去购买云服务器部署自己的应用。有了区块链这个基于全球服务器、全天候不间断服务的应用平台，开发人员可以轻松地把应用部署到区块链上。此外，由于“代币”机制的存在，开发人员可以很容易地获得价值回报。相信在不久的将来，dapp会超越传统app，在人们的社会生活中扮演越来越重要的角色。&lt;/br&gt;
+&lt;/br&gt;
+※了解使去中心化数据、财富、身份标识、计算和带宽成为可能的分布式系统技术有何优势&lt;/br&gt;
+※利用Go语言、去中心化架构、去</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+SirajRaval　dapp开发人员、企业家。他是开发人员众筹平台Havi的创始人，开发过包括Meetup在内的几个iOS应用，还做了很多开源方面的工作。除了程序员，Siraj还是一位旅行家、音乐家、后现代主义者和潜水员。
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">20</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/2645</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018图灵图书目录</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1.7K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"> ,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+【图灵教育】图灵教育是国内计算机图书最有影响力的高端品牌之一。公司始终以策划高质量的科技图书为核心业务，成立11年以来，累计销售图书已达1000多万册，影响了数百万读者。&lt;/br&gt;
+&lt;/br&gt;
+【图灵社区】图灵社区是图灵教育旗下的综合性服务平台，集图书内容生产、作译者服务、电子书销售、技术人士交流于一体。经过不断探索实践，图灵社区已经成长为国内最受欢迎的IT类电子书销售平台。&lt;/br&gt;
+&lt;/br&gt;
+【图灵团队】图灵教育拥有一支优秀的策划和编辑团队，秉承长期坚守的质量意识和服务意识，为读者出版</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-04-27</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"> </Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"> </Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">黑白</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018图灵图书目录</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+①涵盖图灵经典书、畅销书和2018年5月之前出版的重点图书；&lt;/br&gt;
+②电子版支持点击目录链接到相应页面，做了书签；&lt;/br&gt;
+③单本图书支持二维码扫描，跳转到图灵社区试读；&lt;/br&gt;
+④有电子版的图书标注了价格，扫描后登录可直接购买；&lt;/br&gt;
+⑤支持书名或关键词搜索。&lt;/br&gt;
+&lt;/br&gt;
+请到【随书下载】下载PDF文件。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">21</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/2397</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">深入理解TensorFlow：架构设计与实现原理</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">5.1K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;ahref=&quot;/space/232712&quot;&gt;彭靖田&lt;/a&gt;,&lt;ahref=&quot;/space/286526&quot;&gt;林健&lt;/a&gt;,&lt;ahref=&quot;/space/286524&quot;&gt;白小龙&lt;/a&gt;(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"> ,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书以TensorFlow1.2为基础，从基本概念、内部实现和最佳实践等方面深入剖析了TensorFlow。书中首先介绍了TensorFlow设计目标、基本架构、环境准备和基础概念，接着重点介绍了以数据流图为核心的机器学习编程框架的设计原则与核心实现，紧接着还将TensorFlow与深度学习相结合，从理论基础和程序实现这两个方面系统介绍了CNN、GAN和RNN等经典模型，然后深入剖析了TensorFlow运行时核心、通信原理和数据流图计算的原理与实现，最后全面介绍了TensorFlow生态系</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-04-25</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">79.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">354</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+才云科技技术总监、华为深度学习团队系统工程师、华为公司深度学习云服务的技术负责人联合编写&lt;/br&gt;
+才云科技创始人兼CEO张鑫、GoogleBrain资深工程师周玥枫、云账户联合创始人兼CTO邹永强、博拉科技创始人兼CEO周公爽、微软亚洲研究院助理研究员王锦鹏、才云科技顾问郑泽宇联合推荐&lt;/br&gt;
+不仅介绍如何使用TensorFlow，还剖析了系统设计原理&lt;/br&gt;
+
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+彭靖田，才云科技技术总监，谷歌机器学习开发专家（MLGDE），KubeflowCoreMaintainer，TensorFlowContributor，曾一度成为TensorFlow社区全球前40的贡献者。加州大学圣迭戈分校访问学者，毕业于浙江大学竺可桢学院求是科学班。曾为华为深度学习团队核心成员，主要参与华为深度学习平台的设计和研发工作。&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+林健，华为深度学习团队系统工程师。在中科院计算所取得博士学位，并在美国俄亥俄州立大学做过博士后研究。长期从事系统软件研</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">22</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/2022</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">从无穷开始：科学的困惑与疆界</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">3</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2.7K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">让‐皮埃尔•卢米涅,马克•拉雪茨‐雷(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"> ,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书以生动的语言讲述了“无穷”的概念对科学研究和人类思想的重要推动作用，探讨了“无穷”在物理学、数学和天文学三大领域中的深刻意义，在大到浩瀚宇宙、小到微观量子世界中，展现“无穷”带给人类的乐趣、困惑和无限启迪。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-04-24</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">39.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">204</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;ahref=&quot;https://www.amazon.fr/linfini-Horizons-cosmiques-multivers-quantique/dp/2100738380/ref=la_B001H6GJ06_1_2?s=books&amp;amp;amp;ie=UTF8&amp;amp;amp;qid=1481521810&amp;amp;amp;sr=1-2&quot;target=&quot;_blank&quot;&gt;Del&amp;#39;infini-Horizonscosmiques,multiversetvidequantique&lt;/</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+一本探索无穷世界的趣书&lt;/br&gt;
+以无穷为基点，讲述数学、物理和天文学三大学科的精髓&lt;/br&gt;
+“乔治•勒梅特天文学奖”获得者卢米涅与法兰西学术院莫隆大奖获得者拉雪茨‐雷联袂创作&lt;/br&gt;
+&lt;/br&gt;
+
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+让‐皮埃尔•卢米涅/Jean-PierreLuminet&lt;/br&gt;
+世界知名天体物理学家和黑洞专家，“乔治•勒梅特天文学奖”获得者，现任法国国家科学研究院下属巴黎默顿天文台宇宙理论研究部主任，从事相对论天体物理学和宇宙学研究，曾提出“褶皱宇宙”的理论。作者同时还是一位作家和诗人，曾荣获法国艺术及文学勋章军官勋位。其著名天文学科普著作《黑洞与暗能量：宇宙的命运交响》一书荣获“欧洲科学传播奖”。&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+马克•拉雪茨‐雷/MarcLachièze-Rey&lt;/br&gt;
+法国</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">23</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/1856</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">游戏设计信条：从创意到制作的设计原则</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">0</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2.5K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">MarcAlbinet(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"> ,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书是游戏设计的实用参考指南，全面介绍了电子游戏的设计理念和基本方法。作者综合各方面知识，剖析游戏的设计规则和运作原理，为构思、制造独特而有趣的游戏提供了一套有效方法，从脚本立意、玩家体验、互动效果、生产流程等角度讲述了游戏设计的关键核心，提出了游戏性12项原则等独到见解，解答了游戏设计者们不可回避的诸多问题。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-04-19</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">49.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">188</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;ahref=&quot;https://www.amazon.fr/Concevoir-jeu-vid%C3%A9o-professionnels-expliqu%C3%A9s/dp/2364051231/ref=sr_1_1?ie=UTF8&amp;amp;amp;qid=1462244697&amp;amp;amp;sr=8-1&amp;amp;amp;keywords=9782364051232&quot;target=&quot;_blank&quot;&gt;Concevoirunjeuvid&amp;#233;o:Lesm&amp;#233;thodesetleso</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+《刺客信条》游戏设计总监、BAFTA游戏设计大奖获得者、育碧AAA级游戏设计师MarcAlbinet独创设计秘辛&lt;/br&gt;
+独具一格的剧本、场景与关卡设计方式，简单实用的工具和理念&lt;/br&gt;
+从策划、创意、艺术创作到团队创意的工作技巧，实例丰富&lt;/br&gt;
+游戏爱好者，游戏设计初学者与专业人士必读参考&lt;/br&gt;
+
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+MarcAlbinet，硬核游戏与博弈游戏开发设计专家。曾在迪士尼公司担任AAA级游戏设计总监，领导游戏开发与创新团队，并曾在育碧蒙特利尔工作室和巴黎工作室担任游戏设计师和设计总监，负责《刺客信条》的设计创意。其设计作品包括迪士尼公司荣获BAFTA游戏大奖的《跳跳虎的蜂蜜猎人》系列，以及育碧游戏公司的《蓝精灵》系列和《舞力全开4》等。&lt;/br&gt;
+
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">24</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/2021</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">机器学习：理论、实践与提高</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">3.0K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">[法]Massih-RezaAmini(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"> ,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书是机器学习理论与算法的参考书目，从监督、半监督学习的基础理论开始，本书采用简单、流行的C语言，逐步介绍了最常见、最先进的理论概念、算法与实践案例，呈现了相应的经典算法和编程要点，满足读者希望了解机器学习运作模式的根本需求。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-04-17</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">59.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">220</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;ahref=&quot;https://www.amazon.fr/Apprentissage-machine-th-orie-pratique/dp/2212138008/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;amp;amp;qid=1481530980&amp;amp;amp;sr=1-4&quot;target=&quot;_blank&quot;&gt;Apprentissagemachine:delath&amp;#233;orie&amp;#224;lapratique&lt;/a&gt;
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+机器学习数学和理论知识必读书目&lt;/br&gt;
+讲解丰富案例，分析实践经验，阐释核心算法&lt;/br&gt;
+教学与实践结合，适合专业人士提高机器算法技能&lt;/br&gt;
+机器学习专家FrancisBach作序&lt;/br&gt;
+
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+Massih-RezaAmini，法国知名机器学习、数据搜索专家，格勒诺布尔大学计算机科学教授，研究领域统计机器学习的全新框架与模板。在法国著有多部机器学习经典参考书目。&lt;/br&gt;
+FrancisBach为本书作序，法国知名机器学习专家，法国国家信息与自动化研究所SIERRA项目负责人，专注于图形建模、稀疏法、模型核方法、凸优化、信号处理等。
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">25</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/1936</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Android安全攻防实践</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2.9K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">SrinivasaRaoKotipalli,MohammedA.Imran(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">移动开发</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">移动开发,android,黑客,安全,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书以搭建安卓安全所需的实验环境开篇，首先介绍了ROOT安卓设备的常用工具和技术，并分析了安卓应用的基本架构，接着从数据存储、服务器端、客户端等方面讲解了安卓应用可能面临的安全风险，最后给出了一些避免恶意攻击的方法。另外，本书还涉及了多个案例，步骤详实，通俗易懂。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-04-16</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">59.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">253</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;ahref=&quot;https://www.amazon.com/Hacking-Android-Srinivasa-Rao-Kotipalli/dp/1785883143/ref=sr_1_1?ie=UTF8&amp;amp;amp;qid=1480989658&amp;amp;amp;sr=8-1&amp;amp;amp;keywords=9781785883149&quot;target=&quot;_blank&quot;&gt;HackingAndroid&lt;/a&gt;
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+Android移动设备已经成为人们日常生活中必不可少的一部分。为了应对各种可能针对Android系统的攻击，终端用户、研发人员和安全专家都需要关注Android安全。&lt;/br&gt;
+&lt;/br&gt;
+本书将一步一步地指导你学习Android安全技术。作者从最基本的环境搭建讲起，逐步深入到ROOT、应用安全评估以及渗透测试等相关概念。在这一旅途中，你将学习多种用于渗透测试的工具和技术，并掌握进行Android应用风险评估和渗透测试的相关技术。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+SrinivasaRaoKotipalli美国花旗银行副总裁助理曾先后担任印度塔塔咨询服务公司安全工程师和ConditionZebra公司信息安全工程师。在Web应用渗透测试、基础设施渗透测试和移动应用安全等领域经验丰富。&lt;/br&gt;
+&lt;/br&gt;
+MohammedA.Imran美国Zendesk公司高级软件安全工程师，主要负责静态应用安全测试、交互式应用安全测试、渗透测试和风险评估等工作。他擅长渗透测试、漏洞评估、安全代码审查和威胁建模。&lt;/br&gt;
+&lt;/br&gt;
+李骏软件工程师，多年移动应用开发</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">26</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/2003</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Python3网络爬虫开发实战</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">17</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">18.0K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;ahref=&quot;/space/227954&quot;&gt;崔庆才&lt;/a&gt;(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"> ,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书介绍了如何利用Python3开发网络爬虫，书中首先介绍了环境配置和基础知识，然后讨论了urllib、requests、正则表达式、BeautifulSoup、XPath、pyquery、数据存储、Ajax数据爬取等内容，接着通过多个案例介绍了不同场景下如何实现数据爬取，最后介绍了pyspider框架、Scrapy框架和分布式爬虫。&lt;/br&gt;
+本书适合Python程序员阅读。&lt;/br&gt;
+
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-04-16</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">99.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">594</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+案例丰富，注重实战&lt;/br&gt;
+博客文章过百万的静觅大神力作&lt;/br&gt;
+全面介绍了数据采集、数据存储、动态网站爬取、App爬取、验证码破解、模拟登录、代理使用、爬虫框架、分布式爬取等知识&lt;/br&gt;
+涉及的库或工具：urllib、requests、BeautifulSoup、XPath、pyquery、redis-py、PyMongo、PyMySQL、Selenium、Splash、Charles、mitmproxy、mitmdump、Appium、pyspider、Scrapy、Scrapy-</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+崔庆才，北京航空航天大学硕士，静觅博客（https://cuiqingcai.com/）博主，爬虫博文访问量已过百万，喜欢钻研，热爱生活，乐于分享。欢迎关注个人微信公众号“进击的Coder”。
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">27</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/2009</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">你不可不知的50个艺术知识（修订版）</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1.3K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">［英］苏茜&amp;#183;霍奇(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">楼伟珊</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"> ,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+威廉·莫里斯曾说过：“不要在房子内放置一件你认为没有用或不美丽的东西。”然而，在努力追寻美的过程中，我们时常会在美术馆里对各种“主义”感到不知所措：印象主义、后印象主义和新印象主义，表现主义、抽象表现主义和新表现主义，这都是些什么啊？古典作品可能在我们看来都差不多一样，而一些现代艺术有时更让我们感到一头雾水：它们要么平凡无奇，要么不明所以，难道这也算艺术？&lt;/br&gt;
+这时，了解一点艺术和艺术史的基本概念就显得尤为重要了。作为一本简明的艺术史入门读物，本书精选了西方艺术史的50个重要概念，梳理</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-04-16</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">35.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">204</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">50ArtIdeasYouReallyNeedtoKnow</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+-这是一本简明的艺术史入门读物，通过50个重要概念让你了解西方艺术史的脉络&lt;/br&gt;
+-尤其以大量篇幅讲解令人眼花缭乱和困惑的现当代艺术概念，让你在艺术史的脉络中读懂各式各样的“主义”，理解千奇百怪的现当代艺术&lt;/br&gt;
+-本次修订订正了一些错误，并调整了版式
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+苏茜·霍奇(SusieHodge)，伦敦大学伯贝克学院艺术史硕士，英国皇家文艺学会（RSA）会士，著有一百多本有关艺术、艺术史以及美术技法的著作，包括《你为什么看不懂现代艺术？为什么你五岁时没做出来？》《伟大艺术家列传》《教你画肖像》《教你画动物》等，并经常作为艺术评论家出现在电视上。
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">28</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/1891</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">DevOps实践指南</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">9</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">10.9K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">GeneKim,JezHumble,PatrickDebois,JohnWillis(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">刘征</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">管理,运维,devops,凤凰项目,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书共分为6个部分：第一部分概述DevOps的历史和三个基本原则，即“三步工作法”；第二部分介绍开启DevOps转型的过程；第三到五部分深入探讨“三步工作法”的各个要素；第六部分关注如何将安全性和合规性正确集成到日常工作中。全书涵盖40余个DevOps案例，以谷歌、亚马逊、Facebook等全球知名企业和组织的实际调查结果为依据，展示如何通过现代化的运维管理提升管理效率，进而为企业赢得更大市场、创造更多利润。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-04-12</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">89.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">300</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">暂时缺货</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">TheDevOpsHandbook:HowtoCreateWorld-ClassAgility,Reliability,andSecurityinTechnologyOrganizations</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+高德纳公司（Gartner）高级高管合伙人　李长华&lt;/br&gt;
+中国中钢集团有限公司信息管理中心总经理　李红&lt;/br&gt;
+中国卫通集团信息中心主任　李炜&lt;/br&gt;
+EXIN国际信息科学考试学会亚太区总经理、DevOpsDays中国发起人　孙振鹏&lt;/br&gt;
+中国农业银行数据中心总经理　涂晓军&lt;/br&gt;
+雪松控股集团CIO、前壳牌中国CIO　徐斌&lt;/br&gt;
+中信银行信息技术管理部总经理　王燕&lt;/br&gt;
+※联合推荐※&lt;/br&gt;
+&lt;/br&gt;
+技术的有效管理对于商业竞争力而言空前重要。数十年来，技术领导者</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+【作者简介】&lt;/br&gt;
+&lt;/br&gt;
+GeneKim　&lt;/br&gt;
+Tripwire创始人、前CTO，ITRevolution创始人，DevOps企业峰会主办人，畅销书《凤凰项目》合著者。&lt;/br&gt;
+&lt;/br&gt;
+JezHumble　&lt;/br&gt;
+DevOpsResearchandAssessment公司CTO，加州大学伯克利分校信息学院讲师；曾任ThoughtWorks首席顾问。《精益企业》和Jolt大奖图书《持续交付》的合著者。&lt;/br&gt;
+&lt;/br&gt;
+PatrickDebois　&lt;/br&gt;
+De</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">29</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/1984</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">现代编译原理：C语言描述（修订版）</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">9</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">5.3K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">AndrewW.Appel,MaiaGinsburg(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">编译原理</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">编译原理,编译,C语言,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书全面讲述了现代编译器的各个组成部分，包括词法分析、语法分析、抽象语法、语义检查、中间代码表示、指令选择、数据流分析、寄存器分配以及运行时系统等。全书分成两部分，第一部分是编译的基础知识，适用于第一门编译原理课程（一个学期）；第二部分是高级主题，包括面向对象语言和函数语言、垃圾收集、循环优化、存储结构优化等，适合于后续课程或研究生教学。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-04-11</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">89.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">385</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;ahref=&quot;https://www.amazon.com/Modern-Compiler-Implementation-Andrew-Appel/dp/0521607655/ref=sr_1_1?ie=UTF8&amp;amp;amp;qid=1489651153&amp;amp;amp;sr=8-1&amp;amp;amp;keywords=9780521607650&quot;target=&quot;_blank&quot;&gt;ModernCompilerImplementationinC&lt;/a&gt;
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+经典编译原理教材，国际上众多名校均采用本书作为编译原理课程的教材，包括美国麻省理工学院、加州大学伯克利分校、普林斯顿大学和英国剑桥大学等。&lt;/br&gt;
+《现代编译原理：C语言描述（修订版）》按照编译器处理过程的各个阶段依次组织，并精心设计了一个“学生项目编译器”的框架和模块接口。每一章结尾均给出习题，使得学生在掌握了编译原理和方法的同时，能够理论联系实际地亲自动手体验具体的实现过程。&lt;/br&gt;
+《现代编译原理：C语言描述（修订版）》还增加了一些其他编译原理教科书没有涉及的内容。前端增加了面向对</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+AndrewW.Appel&lt;/br&gt;
+美国普林斯顿大学计算机科学系教授，第26届ACMSIGPLAN-SIGACT程序设计原理年会大会执行主席，1998~1999年在贝尔实验室做研究工作。主要研究方向是计算机安全、编译器设计、程序设计语言等。&lt;/br&gt;
+MaiaGinsburg&lt;/br&gt;
+美国普林斯顿大学计算机科学系讲师。
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">30</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/1914</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">R数据挖掘入门</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1.7K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">山本义郎、藤野友和、久保田贵文(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">数据挖掘</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">数据挖掘,大数据,r,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书使用R，结合大量实例，详细介绍了数据挖掘的理论和分析方法。全书分为3部分：第1部分简单介绍了使用R进行数据挖掘的流程和数据挖掘的概要；第2部分介绍了数据挖掘的10种常用方法，包括回归分析、Logistic回归分析、决策树分析、支持向量机、记忆基础推理、聚类分析、自组织映射、主成分分析、对应分析、关联规则分析，并在此基础上使用R实际进行数据分析；第3部分结合实际的数据挖掘事例介绍了如何使用这些方法。本书希望通过真实的数据和实际的操作，帮助读者理解数据挖掘。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-04-09</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">45.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">198</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;ahref=&quot;https://www.amazon.co.jp/dp/4274218171?_encoding=UTF8&amp;amp;amp;isInIframe=0&amp;amp;amp;n=465392&amp;amp;amp;ref_=dp_proddesc_0&amp;amp;amp;s=books&amp;amp;amp;showDetailProductDesc=1#product-description_feature_div&quot;target=&quot;_blank&quot;&gt;Rによるデータマイニング入門&lt;/a&gt;
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+1.从理论基础到实例应用，边学习边实践！&lt;/br&gt;
+2.网罗数据挖掘中10种经典、常用的方法！&lt;/br&gt;
+回归分析/Logistic回归分析/决策树分析/支持向量机/记忆基础推理/聚类分析/自组织映射/主成分分析/对应分析/关联规则分析&lt;/br&gt;
+3.图文并茂，示例丰富，结合可下载的R代码和数据，让你亲自体验数据挖掘的流程！&lt;/br&gt;
+&lt;/br&gt;
+如何预测邮件是否为垃圾邮件？&lt;/br&gt;
+如何判断顾客会同时购买哪些商品？&lt;/br&gt;
+如何根据股价数据判断经济的景气程度？&lt;/br&gt;
+如何从SNS获</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+山本义郎（作者）&lt;/br&gt;
+日本东海大学理学部数学系教授。著有《统计数据的可视化》《统计学序论》《概率统计序论第2版》（合著）。执笔本书第2章、第6章、第9章、第11章、第12章、第13章。&lt;/br&gt;
+藤野友和（作者）&lt;/br&gt;
+日本福冈女子大学国际文理学部讲师。著有《统计数据的可视化》（合著）。执笔本书第1章、第3章、第4章、第8章。&lt;/br&gt;
+久保田贵文（作者）&lt;/br&gt;
+日本多摩大学经营信息学部副教授。执笔本书第5章、第7章、第10章、第14章。&lt;/br&gt;
+朱建春（译者）&lt;/br&gt;
+毕</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">31</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/1944</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Hadoop数据分析</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">3</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">3.5K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">BenjaminBengfort,JennyKim(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">hadoop</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">hadoop,数据分析,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+通过提供分布式数据存储和并行计算框架，Hadoop已经从一个集群计算的抽象演化成了一个大数据的操作系统。本书旨在通过以可读且直观的方式提供集群计算和分析的概览，为数据科学家深入了解特定主题领域铺平道路，从数据科学家的视角介绍Hadoop集群计算和分析。本书分为两大部分，第一部分从非常高的层次介绍分布式计算，讨论如何在集群上运行计算；第二部分则重点关注数据科学家应该了解的工具和技术，意在为各种分析和大规模数据管理提供动力。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-04-08</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">69.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">211</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">DataAnalyticswithHadoop:</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+通过提供分布式数据存储和并行计算框架，Hadoop已经从集群计算的抽象演变成了大数据操作系统。本书从数据科学的视角，介绍Hadoop集群计算和分析，重点关注可构建的具体分析、数据仓储技术和高阶数据流。&lt;/br&gt;
+&lt;/br&gt;
+书中主要内容如下：&lt;/br&gt;
+&lt;/br&gt;
+•Hadoop和集群计算背后的核心概念&lt;/br&gt;
+•使用设计模式和并行分析算法创建分布式数据分析作业&lt;/br&gt;
+•在分布式环境下使用ApacheHive和HBase进行数据管理、数据挖掘和数据仓储&lt;/br&gt;
+•使用Sqoop和Ap</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+BenjaminBengfort，数据科学家，目前正在马里兰大学攻读博士学位，方向为机器学习和分布式计算；熟悉自然语言处理、Python数据科学、Hadoop和Spark分析等。&lt;/br&gt;
+&lt;/br&gt;
+JennyKim，经验丰富的大数据工程师，不仅进行商业软件的开发，在学术界也有所建树，在海量数据、机器学习以及生产和研究环境的Hadoop实施方面有深入研究。目前就职于Cloudera的Hue团队。
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">32</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/1917</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">代码之外的功夫：程序员精进之路</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">8</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">10.3K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">GregoryT.Brown(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">程序设计</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">程序设计,软件开发,优秀程序员,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书虽然面向程序员，却不包含代码。在作者看来，90%的程序设计工作都不需要写代码；程序员不只是编程专家，其核心竞争力是利用代码这一工具解决人类社会的常见问题。以此作为出发点，作者精心构思了8个故事，以情景代入的方式邀请读者思考代码之外的关键问题：软件开发工作如何从以技术为中心转为以人为本？透过故事主人公的视角，读者能比较自己与书中角色的差异，发现决策过程的瑕疵，提升解决问题的综合能力。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-04-04</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">49.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">110</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;ahref=&quot;https://www.amazon.com/Programming-Beyond-Practices-More-Monkey/dp/1491943823&quot;target=&quot;_blank&quot;&gt;ProgrammingBeyondPractices&lt;/a&gt;
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+如果你认为程序员的工作就是写代码，那就大错特错了！事实上，编程只占程序设计工作的10%，而且是相对简单的工作。本书以8个虚构的故事为主线，邀你探索更有趣、更具挑战性的那90%的程序设计工作，构建行之有效的思维框架，从而提升解决问题的综合能力。&lt;/br&gt;
+&lt;/br&gt;
+“这是一本特立独行的书，篇幅很短，内容却很丰富，深入探究了一些软件开发中十分重要却少有人关注的问题。”&lt;/br&gt;
+——MichaelFeathers&lt;/br&gt;
+面向对象技术专家，测试框架CppUnit和FitCpp开发人员，《修改</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+作者介绍&lt;/br&gt;
+&lt;/br&gt;
+GregoryT.Brown，期刊PracticingRuby出版人；非常流行的PDF生成库PrawnPDF的原作者；IT咨询顾问，帮助过各种规模的公司确定核心业务问题，力求以最少的代码解决问题。&lt;/br&gt;
+&lt;/br&gt;
+译者介绍&lt;/br&gt;
+&lt;/br&gt;
+李志，1995年生于山东济南。目前在西安交通大学人工智能与机器人研究所从事计算机视觉相关研究，同时在西安交通大学软件学院攻读软件工程硕士学位。本科毕业于西安交通大学外国语学院英语系，英语专业八级，同时具备英语语言</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">33</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/2420</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">TensorFlow深度学习</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">5</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">7.9K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">[意]GiancarloZaccone,[孟加拉]Md.RezaulKarim,[埃及]AhmedMenshawy(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"> ,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书共分5方面内容：基础知识、关键模块、算法模型、内核揭秘、生态发展。前两方面由浅入深地介绍了TensorFlow平台，算法模型方面依托TensorFlow讲解深度学习模型，内核揭秘方面主要分析C++内核中的通信原理、消息管理机制等，最后从生态发展的角度讲解以TensorFlow为中心的一套开源大数据分析解决方案。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-04-04</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">49.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">227</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">&lt;ahref=&quot;https://www.amazon.com/Deep-Learning-TensorFlow-Giancarlo-Zaccone/dp/1786469782/ref=sr_1_1?ie=UTF8&amp;amp;amp;qid=1488868452&amp;amp;amp;sr=8-1&amp;amp;amp;keywords=9781786469786&quot;target=&quot;_blank&quot;&gt;DeepLearningwithTensorFlow&lt;/a&gt;
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书介绍关于机器学习系统的深度学习算法，使你可以在搜索、图像识别、语言处理等产品中实现这些算法。你将学习如何分析并改进深度学习模型的表现，通过与标准算法进行比较，借助机器智慧，在特定文本中从信息和决策行为中学习。读完本书后，你将熟悉机器学习技术，尤其是使用TensorFlow进行深度学习，并将所学知识用于研究或商业项目。本书适合想要探索数据抽象层的数据科学家，展现了如何在实际中使用TensorFlow处理复杂且未经加工的数据。&lt;/br&gt;
+•访问并使用公共数据集，通过TensorFlow下载、</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+[意]GiancarloZaccone在并行计算和可视化方向拥有丰富经验，目前于某咨询公司担任系统和软件工程师。&lt;/br&gt;
+[孟加拉]Md.RezaulKarim拥有近10年软件研发经验，具备扎实的算法和数据结构知识，研究兴趣包括机器学习、深度学习、语义网络等。&lt;/br&gt;
+[埃及]AhmedMenshawy&lt;/br&gt;
+爱尔兰都柏林三一学院研究工程师，主要工作是使用ADAPT中心的机器学习和自然语言处理技术成果构建原型和应用，在机器学习和自然语言处理领域拥有多年工作经验。&lt;/br&gt;
+
+</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">34</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/2434</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">区块链技术进阶与实战</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">10</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">9.6K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">蔡亮,李启雷,梁秀波(作者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"> ,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书从实战的角度出发，结合实际应用开发场景，对区块链技术进行了全面介绍和剖析。全书共分为四个部分：第一部分对区块链进行了全景分析，介绍了其概念、历史、技术流派、主要公司和典型应用场景，并给出了当前区块链产业生态图谱；第二部分对知名开源区块链平台以太坊和HyperLedger进行了详细解读，并介绍了如何基于这两个平台进行区块链应用开发；第三部分以自主可控联盟区块链Hyperchain为例，分析了企业级区块链平台的核心技术，介绍了基于Hyperchain的企业级区块链应用开发技术；第四部分介绍了</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-04-04</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">69.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">286</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+*国内区块链顶尖研究者和一线开发者出品&lt;/br&gt;
+*中国工程院院士陈纯等业内专家大力推荐&lt;/br&gt;
+*专注介绍区块链核心原理和应用技术&lt;/br&gt;
+*详细解读区块链平台以太坊和HyperLedger&lt;/br&gt;
+*注重实战，全书包含5个完整实际项目案例&lt;/br&gt;
+*配有开发者平台，边学边做，快速上手&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+*来自一线开发者和研究者的经验。作者团队为国内区块链技术顶尖研究者和一线开发者，在区块链行业具有很高的知名度和丰富的项目实战经验，并且依托高层次科研平台积累了大量的</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+蔡亮，博士，副教授，浙江大学计算机学院软件工程系主任，浙江省重大科技专项专家。主要从事区块链、云计算、网络安全、可信计算和金融业务处理的研究，在国家级核心期刊和国际会议上发表了数十篇论文。参与了多项国家级或省部级科研项目，如国防军工预研基金项目、国家创新基金项目、863项目等。获得教育部科技进步一等奖、浙江省科技进步一等奖和三等奖。&lt;/br&gt;
+&lt;/br&gt;
+李启雷，博士，讲师，杭州趣链科技有限公司首席技术官。主要从事体感人机交互、区块链和移动互联网技术等方面的研究与开发。作为核心研究人员参与国</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">35</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">http://www.ituring.com.cn/book/2068</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">数学思考法：解析直觉与谎言</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">5</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">3.4K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">[日]神永正博,孙庆媛(译者)</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"> ,</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+本书为讲解“数学思考法”的通俗科普读物，书中通过用数学思维解析实际生活案例、公众认知中的错误直觉、数学经典名题等方式，由浅入深地传授了分析数据信息价值、辨别谎言、拆解转化复杂问题、抓住事物本质的思考之法，同时讲解了相关的数学知识与理论，可以有效提高理性思维、判断与解决问题能力，对于理解数学、培养数学兴趣亦有有益启示。
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">2018-04-02</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">49.00 元</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">286</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">单色</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">上市销售</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">直感を裏切る数学　思い込みにだまされない数学的思考法</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">
+大阪大学数学博士、数学分析学教授科普力作&lt;/br&gt;
+&lt;/br&gt;
+经典名题通俗讲解数学思维方式&lt;/br&gt;
+生活案例拯救痛入骨髓的数学恐惧&lt;/br&gt;
+&lt;/br&gt;
+提升理性思维&lt;/br&gt;
+启发数学兴趣&lt;/br&gt;
+&lt;/br&gt;
+分析信息真正价值/拆解转化复杂问题/破除思维定式陷阱&lt;/br&gt;
+

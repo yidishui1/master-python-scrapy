@@ -1,0 +1,43 @@
+用Scrapy进行爬虫项目管理
+scrapy项目文件地址==C:\Users\leishen\Documents\anaconda3\scrapy\master python scrapy\chapter 12
+scrapy项目文件地址>scrapy startproject myfirstpjt
+scrapy项目文件地址>cd myfirstpjt
+scrapy项目文件地址>scrapy startproject -h
+scrapy项目文件地址>scrapy startproject --logfile="../logf.log" mypjt1
+scrapy项目文件地址>scrapy startproject --loglevel=DEBUG mypjt2
+scrapy项目文件地址>scrapy startproject --nolog mypjt3
+
+12.3常用工具命令
+1.全局命令
+scrapy项目文件地址>scrapy -h
+scrapy项目文件地址>scrapy fetch http://www.baidu.com
+scrapy项目文件地址>scrapy runspider --loglevel=INTO first.py
+
+scrapy项目文件地址>cd myfirstpjt\
+scrapy项目文件地址\myfirstpjt>scrapy settings --get BOT_NAME
+
+scrapy项目文件地址>scrapy shell http://www.baidu.com --nolog
+
+scrapy项目文件地址>scrapy version
+scrapy项目文件地址>scrapy version -v
+
+scrapy项目文件地址>scrapy view http://news.163.com/
+2.项目命令
+scrapy项目文件地址>cd myfirstpjt\
+scrapy项目文件地址\myfirstpjt>scrapy -h
+scrapy项目文件地址\myfirstpjt>scrapy bench
+
+scrapy项目文件地址\myfirstpjt>scrapy genspider -l
+scrapy项目文件地址\myfirstpjt>scrapy genspider -t basic weisuen iqianyue.com
+scrapy项目文件地址\myfirstpjt>scrapy genspider -d csvfeed
+
+scrapy项目文件地址\myfirstpjt>scrapy check weisuen
+scrapy项目文件地址\myfirstpjt>scrapy crawl weisuen --loglevel=CRITICAL/ERROR/WARNING/INFO/DEBUG
+scrapy项目文件地址\myfirstpjt>scrapy listDEBUG
+scrapy项目文件地址\myfirstpjt>scrapy edit weisuen
+scrapy项目文件地址\myfirstpjt>scrapy parse http://www.baidu.com --nolog
+scrapy项目文件地址\myfirstpjt>scrapy parse -h
+scrapy项目文件地址\myfirstpjt>scrapy parse http://baidu.com --spider=weisuen --nolog
+
+
+
